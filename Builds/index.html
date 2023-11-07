@@ -127,25 +127,19 @@
       document.body.appendChild(script);
 
       //Test communication
-
       var counter = 0;
-
       function IncreaseCounter() {
         counter++;
         document.getElementById('counterText').innerHTML = "Counter: " + counter;
       }
-
       //New communication Test
       /*
-
       var Module;
-
       function UnityLoaderProgress(unityInstance, progress){
         if(!Module){
           Module = unityInstance.Module;
         }
       }
-
       function UnityLoaded(unityInstance){
         unityInstance.SendMessage("WebGLPlugin", "IncreaseCounter");
       }
