@@ -22089,9 +22089,9 @@
     {
       "Annotation": "PreprocessJS Builds/index.html",
       "DisplayName": "PreprocessJS index",
-      "Action": "cd /d \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Dev\\x5fProgramms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Dev\\x5fProgramms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='D\\x3a/UnityProjects/virtuellerHofladen/Builds/index.html'\"  \"locals.webglIncludes='C\\x3a/Dev\\x5fProgramms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='virtuellerHofladen'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x231F1F20'\" \"DATA_FILENAME='Builds.data.gz'\" \"FRAMEWORK_FILENAME='Builds.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Builds.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Builds.loader.js'\"",
+      "Action": "cd /d \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Dev\\x5fProgramms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen\\x5fHTML/index.html'\"  \"locals.outputPath='D\\x3a/UnityProjects/virtuellerHofladen/Builds/index.html'\"  \"locals.webglIncludes='C\\x3a/Dev\\x5fProgramms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='virtuellerHofladen'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x231F1F20'\" \"DATA_FILENAME='Builds.data.gz'\" \"FRAMEWORK_FILENAME='Builds.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Builds.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Builds.loader.js'\"",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/index.html"
       ],
       "Outputs": [
         "Builds/index.html"
@@ -22105,7 +22105,7 @@
       "DisplayName": "Copying favicon.ico",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/favicon.ico"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/favicon.ico"
       ],
       "Outputs": [
         "Builds/TemplateData/favicon.ico"
@@ -22117,7 +22117,7 @@
       "DisplayName": "Copying fullscreen-button.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/fullscreen-button.png"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/fullscreen-button.png"
       ],
       "Outputs": [
         "Builds/TemplateData/fullscreen-button.png"
@@ -22129,7 +22129,7 @@
       "DisplayName": "Copying MemoryProfiler.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/MemoryProfiler.png"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/MemoryProfiler.png"
       ],
       "Outputs": [
         "Builds/TemplateData/MemoryProfiler.png"
@@ -22141,7 +22141,7 @@
       "DisplayName": "Copying progress-bar-empty-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-empty-dark.png"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/progress-bar-empty-dark.png"
       ],
       "Outputs": [
         "Builds/TemplateData/progress-bar-empty-dark.png"
@@ -22153,7 +22153,7 @@
       "DisplayName": "Copying progress-bar-empty-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-empty-light.png"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/progress-bar-empty-light.png"
       ],
       "Outputs": [
         "Builds/TemplateData/progress-bar-empty-light.png"
@@ -22165,7 +22165,7 @@
       "DisplayName": "Copying progress-bar-full-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-full-dark.png"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/progress-bar-full-dark.png"
       ],
       "Outputs": [
         "Builds/TemplateData/progress-bar-full-dark.png"
@@ -22177,7 +22177,7 @@
       "DisplayName": "Copying progress-bar-full-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-full-light.png"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/progress-bar-full-light.png"
       ],
       "Outputs": [
         "Builds/TemplateData/progress-bar-full-light.png"
@@ -22187,9 +22187,9 @@
     {
       "Annotation": "PreprocessJS Builds/TemplateData/style.css",
       "DisplayName": "PreprocessJS style",
-      "Action": "cd /d \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Dev\\x5fProgramms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Dev\\x5fProgramms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='D\\x3a/UnityProjects/virtuellerHofladen/Builds/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Dev\\x5fProgramms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='virtuellerHofladen'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x231F1F20'\" \"DATA_FILENAME='Builds.data.gz'\" \"FRAMEWORK_FILENAME='Builds.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Builds.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Builds.loader.js'\"",
+      "Action": "cd /d \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Dev\\x5fProgramms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen\\x5fHTML/TemplateData/style.css'\"  \"locals.outputPath='D\\x3a/UnityProjects/virtuellerHofladen/Builds/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Dev\\x5fProgramms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='virtuellerHofladen'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x231F1F20'\" \"DATA_FILENAME='Builds.data.gz'\" \"FRAMEWORK_FILENAME='Builds.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Builds.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.9f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Builds.loader.js'\"",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/style.css"
       ],
       "Outputs": [
         "Builds/TemplateData/style.css"
@@ -22203,7 +22203,7 @@
       "DisplayName": "Copying unity-logo-dark.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/unity-logo-dark.png"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/unity-logo-dark.png"
       ],
       "Outputs": [
         "Builds/TemplateData/unity-logo-dark.png"
@@ -22215,7 +22215,7 @@
       "DisplayName": "Copying unity-logo-light.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/unity-logo-light.png"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/unity-logo-light.png"
       ],
       "Outputs": [
         "Builds/TemplateData/unity-logo-light.png"
@@ -22227,7 +22227,7 @@
       "DisplayName": "Copying webgl-logo.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/webgl-logo.png"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/webgl-logo.png"
       ],
       "Outputs": [
         "Builds/TemplateData/webgl-logo.png"
@@ -22239,7 +22239,7 @@
       "DisplayName": "Copying webmemd-icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/webmemd-icon.png"
+        "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML/TemplateData/webmemd-icon.png"
       ],
       "Outputs": [
         "Builds/TemplateData/webmemd-icon.png"
@@ -22594,11 +22594,11 @@
       "Filter": "*.js"
     },
     {
-      "Path": "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default",
-      "Recurse": 1
+      "Path": "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/Tools/BuildPipeline"
     },
     {
-      "Path": "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/Tools/BuildPipeline"
+      "Path": "D:/UnityProjects/virtuellerHofladen/Assets/WebGLTemplates/Hofladen_HTML",
+      "Recurse": 1
     },
     {
       "Path": "Library/PlayerDataCache/WebGL/Data",
