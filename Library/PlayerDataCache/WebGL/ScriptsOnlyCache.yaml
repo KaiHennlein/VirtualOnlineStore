@@ -1,8 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ImageLoader
     - InputManager
     - InteractableTest
+    - MaterialChanger
     - PlayerInteract
     - PlayerLook
     - PlayerMotor
@@ -226,103 +228,107 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3114}
+      Script: {instanceID: 3116}
     - Class: 114
-      Script: {instanceID: 3150}
+      Script: {instanceID: 3152}
     - Class: 114
-      Script: {instanceID: 3512}
+      Script: {instanceID: 3514}
     - Class: 114
-      Script: {instanceID: 3678}
+      Script: {instanceID: 3680}
     - Class: 114
-      Script: {instanceID: 3834}
+      Script: {instanceID: 3836}
     - Class: 114
-      Script: {instanceID: 4308}
+      Script: {instanceID: 4310}
     - Class: 114
-      Script: {instanceID: 4578}
+      Script: {instanceID: 4580}
     - Class: 114
-      Script: {instanceID: 4712}
+      Script: {instanceID: 4650}
     - Class: 114
-      Script: {instanceID: 4952}
+      Script: {instanceID: 4716}
     - Class: 114
-      Script: {instanceID: 5012}
+      Script: {instanceID: 4956}
     - Class: 114
-      Script: {instanceID: 5114}
+      Script: {instanceID: 5016}
     - Class: 114
-      Script: {instanceID: 5330}
+      Script: {instanceID: 5118}
     - Class: 114
-      Script: {instanceID: 5332}
+      Script: {instanceID: 5334}
     - Class: 114
-      Script: {instanceID: 5592}
+      Script: {instanceID: 5336}
     - Class: 114
-      Script: {instanceID: 5776}
+      Script: {instanceID: 5596}
     - Class: 114
-      Script: {instanceID: 5998}
+      Script: {instanceID: 5780}
     - Class: 114
-      Script: {instanceID: 6264}
+      Script: {instanceID: 6002}
     - Class: 114
-      Script: {instanceID: 6416}
+      Script: {instanceID: 6268}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 6420}
     - Class: 114
-      Script: {instanceID: 7388}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 7500}
+      Script: {instanceID: 7392}
     - Class: 114
-      Script: {instanceID: 7524}
+      Script: {instanceID: 7504}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 7528}
     - Class: 114
-      Script: {instanceID: 7628}
+      Script: {instanceID: 7618}
     - Class: 114
-      Script: {instanceID: 7926}
+      Script: {instanceID: 7632}
     - Class: 114
       Script: {instanceID: 7930}
     - Class: 114
-      Script: {instanceID: 7956}
+      Script: {instanceID: 7934}
     - Class: 114
-      Script: {instanceID: 8058}
+      Script: {instanceID: 7960}
     - Class: 114
-      Script: {instanceID: 8384}
+      Script: {instanceID: 8062}
     - Class: 114
-      Script: {instanceID: 8798}
+      Script: {instanceID: 8388}
     - Class: 114
-      Script: {instanceID: 8814}
+      Script: {instanceID: 8802}
     - Class: 114
-      Script: {instanceID: 8924}
+      Script: {instanceID: 8818}
     - Class: 114
-      Script: {instanceID: 8930}
+      Script: {instanceID: 8928}
     - Class: 114
-      Script: {instanceID: 9114}
+      Script: {instanceID: 8934}
     - Class: 114
-      Script: {instanceID: 9172}
+      Script: {instanceID: 9118}
     - Class: 114
-      Script: {instanceID: 9244}
+      Script: {instanceID: 9176}
     - Class: 114
-      Script: {instanceID: 9368}
+      Script: {instanceID: 9248}
     - Class: 114
-      Script: {instanceID: 9522}
+      Script: {instanceID: 9372}
     - Class: 114
-      Script: {instanceID: 9740}
+      Script: {instanceID: 9526}
     - Class: 114
-      Script: {instanceID: 9928}
+      Script: {instanceID: 9744}
     - Class: 114
-      Script: {instanceID: 9952}
+      Script: {instanceID: 9932}
     - Class: 114
-      Script: {instanceID: 9996}
+      Script: {instanceID: 9956}
     - Class: 114
-      Script: {instanceID: 10040}
+      Script: {instanceID: 10000}
     - Class: 114
-      Script: {instanceID: 10418}
+      Script: {instanceID: 10044}
     - Class: 114
-      Script: {instanceID: 10520}
+      Script: {instanceID: 10424}
     - Class: 114
-      Script: {instanceID: 11044}
+      Script: {instanceID: 10526}
     - Class: 114
-      Script: {instanceID: 11418}
+      Script: {instanceID: 11050}
     - Class: 114
-      Script: {instanceID: 11544}
+      Script: {instanceID: 11424}
     - Class: 114
-      Script: {instanceID: 11972}
+      Script: {instanceID: 11550}
+    - Class: 114
+      Script: {instanceID: 11978}
+    - Class: 114
+      Script: {instanceID: 12368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -796,6 +802,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MaterialChanger
   - hash:
       serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
@@ -1906,6 +1918,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ImageLoader
   platform: 20
   scenePathNames:
   - Assets/Scenes/Store.unity

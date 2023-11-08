@@ -300,13 +300,17 @@
 -analyzer:"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Input/PlayerInput.cs"
+"Assets/Scripts/CreateMaterailFromTexture2D.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/Interactable.cs"
 "Assets/Scripts/Interactables/InteractableTest.cs"
+"Assets/Scripts/MaterialChanger.cs"
 "Assets/Scripts/Player/PlayerInteract.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
 "Assets/Scripts/Player/PlayerMotor.cs"
 "Assets/Scripts/Player/PlayerUI.cs"
+"Assets/Scripts/ResourceLoaders/ImageList.cs"
+"Assets/Scripts/ResourceLoaders/ImageLoader.cs"
 -langversion:9.0
 
 /deterministic

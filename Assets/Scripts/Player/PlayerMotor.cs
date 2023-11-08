@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMotor : MonoBehaviour
 {
+    //Playermovement
     private CharacterController controller;
     private Vector3 playerVelocity;
     private bool isGrounded;

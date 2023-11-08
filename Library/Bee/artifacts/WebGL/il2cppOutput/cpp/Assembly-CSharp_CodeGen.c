@@ -63,6 +63,7 @@ extern void UIActions_AddCallbacks_m93B0B533E1EBFFDFFE84714A5F3F8A95E9C46484 (vo
 extern void UIActions_UnregisterCallbacks_m14D07D5D9763277ED5E250C92707BC112DE3248D (void);
 extern void UIActions_RemoveCallbacks_m725515876367B0D809D0C2409D3EB9D263E3F6DD (void);
 extern void UIActions_SetCallbacks_mD6FB3CEB6A8431680370281AF3B85A39A01F15F3 (void);
+extern void CreateMaterailFromTexture2D_create_m5CF4847352F7CC146440A1A0DFEFAA7EBE52EC1E (void);
 extern void InputManager_Awake_mCFCABAA5EC85B074EEBE8095E9139175D6526D9F (void);
 extern void InputManager_FixedUpdate_m8884A221D3C9171F3266FBB0FDB448C851A74D6E (void);
 extern void InputManager_LateUpdate_mDF6A5DF92BE0576DFA2E1A0520062578E1D2FCA9 (void);
@@ -76,6 +77,8 @@ extern void InteractableTest_Start_m15B05E4FF0EE0D892C44D42A8DBC9C423479FCFB (vo
 extern void InteractableTest_Update_m6AA3970D0B37E25F976F30EDBE6BCC021E372D3E (void);
 extern void InteractableTest_Interact_mB85E519B751676465375054BF271D3E1272393A8 (void);
 extern void InteractableTest__ctor_m89A1D7063326BAE55226E967C8103BD70780689A (void);
+extern void MaterialChanger_Start_mBA07A82FB79871D985094B1D73EF864852EBFFD3 (void);
+extern void MaterialChanger__ctor_m5AE745DF2DAD12235E235ABF7FEDEA26318AB280 (void);
 extern void PlayerInteract_Start_mE7DCBFEB5ED8DFA0EB727A83AEB4B3C942DDD0CD (void);
 extern void PlayerInteract_Update_m54BBCF88465AE2651A2AB063F487F2B334D5B13A (void);
 extern void PlayerInteract__ctor_m8DCCDCB1265966B6895F6C027C6CA8C0475B2789 (void);
@@ -88,9 +91,12 @@ extern void PlayerMotor__ctor_mA7A70A20085FD5C6BA8F474F83F51BCE17AECC40 (void);
 extern void PlayerUI_Start_m0B6A9FBFAEF0F63EDFD57EB4C76F56612753D8AF (void);
 extern void PlayerUI_UpdateText_mE4EF2CEAB44AD2C8955DFE01FA8099C7195EA829 (void);
 extern void PlayerUI__ctor_m25228057D467B6416C0249B763FFF27D42149C01 (void);
+extern void ImageList__cctor_m5B12AD86D90BB9CDE58CB1E2B9B16042F5936836 (void);
+extern void ImageLoader_Awake_m383D2C0B0E9159CF493656BB1E5F95EB35625F85 (void);
+extern void ImageLoader__ctor_m5F7ED5DEE698BA00D5AE0FAC8633CF3570674D75 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[91] = 
+static Il2CppMethodPointer s_methodPointers[97] = 
 {
 	PlayerInput_get_asset_mB150BFBAFA2BC91504C640B0065EF84C41EEF998,
 	PlayerInput__ctor_m24FD924FB39A9A023CDEA8F6916EEC47B471B3A8,
@@ -156,6 +162,7 @@ static Il2CppMethodPointer s_methodPointers[91] =
 	NULL,
 	NULL,
 	NULL,
+	CreateMaterailFromTexture2D_create_m5CF4847352F7CC146440A1A0DFEFAA7EBE52EC1E,
 	InputManager_Awake_mCFCABAA5EC85B074EEBE8095E9139175D6526D9F,
 	InputManager_FixedUpdate_m8884A221D3C9171F3266FBB0FDB448C851A74D6E,
 	InputManager_LateUpdate_mDF6A5DF92BE0576DFA2E1A0520062578E1D2FCA9,
@@ -169,6 +176,8 @@ static Il2CppMethodPointer s_methodPointers[91] =
 	InteractableTest_Update_m6AA3970D0B37E25F976F30EDBE6BCC021E372D3E,
 	InteractableTest_Interact_mB85E519B751676465375054BF271D3E1272393A8,
 	InteractableTest__ctor_m89A1D7063326BAE55226E967C8103BD70780689A,
+	MaterialChanger_Start_mBA07A82FB79871D985094B1D73EF864852EBFFD3,
+	MaterialChanger__ctor_m5AE745DF2DAD12235E235ABF7FEDEA26318AB280,
 	PlayerInteract_Start_mE7DCBFEB5ED8DFA0EB727A83AEB4B3C942DDD0CD,
 	PlayerInteract_Update_m54BBCF88465AE2651A2AB063F487F2B334D5B13A,
 	PlayerInteract__ctor_m8DCCDCB1265966B6895F6C027C6CA8C0475B2789,
@@ -181,6 +190,9 @@ static Il2CppMethodPointer s_methodPointers[91] =
 	PlayerUI_Start_m0B6A9FBFAEF0F63EDFD57EB4C76F56612753D8AF,
 	PlayerUI_UpdateText_mE4EF2CEAB44AD2C8955DFE01FA8099C7195EA829,
 	PlayerUI__ctor_m25228057D467B6416C0249B763FFF27D42149C01,
+	ImageList__cctor_m5B12AD86D90BB9CDE58CB1E2B9B16042F5936836,
+	ImageLoader_Awake_m383D2C0B0E9159CF493656BB1E5F95EB35625F85,
+	ImageLoader__ctor_m5F7ED5DEE698BA00D5AE0FAC8633CF3570674D75,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
@@ -249,7 +261,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[31] =
 	{ 0x06000032, UIActions_RemoveCallbacks_m725515876367B0D809D0C2409D3EB9D263E3F6DD_AdjustorThunk },
 	{ 0x06000033, UIActions_SetCallbacks_mD6FB3CEB6A8431680370281AF3B85A39A01F15F3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[91] = 
+static const int32_t s_InvokerIndices[97] = 
 {
 	6389,
 	6511,
@@ -315,6 +327,9 @@ static const int32_t s_InvokerIndices[91] =
 	0,
 	0,
 	0,
+	9128,
+	6511,
+	6511,
 	6511,
 	6511,
 	6511,
@@ -340,6 +355,9 @@ static const int32_t s_InvokerIndices[91] =
 	6511,
 	5142,
 	6511,
+	9531,
+	6511,
+	6511,
 	9540,
 	6511,
 };
@@ -347,7 +365,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	91,
+	97,
 	s_methodPointers,
 	31,
 	s_adjustorThunks,

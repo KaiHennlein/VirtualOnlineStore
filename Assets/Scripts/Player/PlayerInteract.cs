@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerInteract : MonoBehaviour
 {
+    //player interaction with the raycast
     private Camera cam;
     [SerializeField]
     private float distance = 3f;

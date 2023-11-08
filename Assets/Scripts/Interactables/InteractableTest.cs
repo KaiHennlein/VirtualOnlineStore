@@ -20,7 +20,8 @@ public class InteractableTest : Interactable
     protected override void Interact()
     {
         Debug.Log("Interacted with " + gameObject.name);
-        Application.ExternalEval("IncreaseCounter();");
         WebGLPlugin.IncreaseCounterFromCSharp();
+        //Must be removed before publishing
+        Application.ExternalEval("IncreaseCounter();");
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class Interactable : MonoBehaviour
 {
+    //Base class for different interactibles
     //message displayed to player when looking at an interactable object
     public string promptMessage;
 

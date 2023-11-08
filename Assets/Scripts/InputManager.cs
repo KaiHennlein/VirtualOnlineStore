@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
+    //Manages the User Inputs and directs them to the other functions and scripts
     private PlayerInput playerInput;
     public PlayerInput.OnFootActions onFoot;
 

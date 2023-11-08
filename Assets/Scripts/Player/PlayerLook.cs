@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerLook : MonoBehaviour
 {
+    //Camera movement
     public Camera cam;
     private float xRotation = 0f;
     [SerializeField] private float xSensitivity = 30f;
