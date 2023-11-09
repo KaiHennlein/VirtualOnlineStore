@@ -357,12 +357,15 @@
 "Assets/Scripts/Interactable.cs"
 "Assets/Scripts/Interactables/InteractableTest.cs"
 "Assets/Scripts/MaterialChanger.cs"
+"Assets/Scripts/Models/JSONProductModel.cs"
+"Assets/Scripts/Models/Product.cs"
 "Assets/Scripts/Player/PlayerInteract.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
 "Assets/Scripts/Player/PlayerMotor.cs"
 "Assets/Scripts/Player/PlayerUI.cs"
 "Assets/Scripts/ResourceLoaders/ImageList.cs"
 "Assets/Scripts/ResourceLoaders/ImageLoader.cs"
+"Assets/Scripts/ResourceLoaders/JSONList.cs"
 -langversion:9.0
 
 /deterministic
