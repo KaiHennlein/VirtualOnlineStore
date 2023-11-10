@@ -1,0 +1,6 @@
+{
+"ProductName": "Foffos Sauerlända Likör",
+"ProductID": "000000000000",
+"Category": "Bottle",
+"ImageName": "BottleExample"
+}

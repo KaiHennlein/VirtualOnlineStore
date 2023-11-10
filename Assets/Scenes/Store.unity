@@ -835,6 +835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 544281932}
+  - component: {fileID: 544281934}
   - component: {fileID: 544281933}
   m_Layer: 0
   m_Name: ResourceLoader
@@ -868,6 +869,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc9c5f56a023e6947b7d1081051648c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &544281934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544281931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18370f8a37d83924bac575f9c6c4ddca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &573231672
