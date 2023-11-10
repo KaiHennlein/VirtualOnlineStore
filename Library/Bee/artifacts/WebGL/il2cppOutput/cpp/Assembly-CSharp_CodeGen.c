@@ -73,12 +73,14 @@ extern void InputManager__ctor_m52D2F3B9FA0D50C52BCC92486F49B300E9334C2A (void);
 extern void Interactable_BaseInteract_mC9A72A18793A4481517E0A2F17AFB66CC3E2599E (void);
 extern void Interactable_Interact_m722C97939145CBEC862EEF9CEE32A14700B12F0F (void);
 extern void Interactable__ctor_m9AA3E7B2D2090FE20FD4EDB4AE1FE9BAC5414988 (void);
-extern void InteractableTest_Start_m15B05E4FF0EE0D892C44D42A8DBC9C423479FCFB (void);
-extern void InteractableTest_Update_m6AA3970D0B37E25F976F30EDBE6BCC021E372D3E (void);
-extern void InteractableTest_Interact_mB85E519B751676465375054BF271D3E1272393A8 (void);
-extern void InteractableTest__ctor_m89A1D7063326BAE55226E967C8103BD70780689A (void);
-extern void MaterialChanger_Start_mBA07A82FB79871D985094B1D73EF864852EBFFD3 (void);
+extern void InteractableBaseFunctions_Start_mD4B27BEDEB0A0280F7BF6559D784CD5CEA01A705 (void);
+extern void InteractableBaseFunctions_Update_m1BEC155EFC84CE3B1DB2956DBB04217CD1D2A8E9 (void);
+extern void InteractableBaseFunctions_Interact_m88C5A1AB7A20E83A1E889CFF71BE9438B5636414 (void);
+extern void InteractableBaseFunctions_GetProductInformation_m635886CBAEBEF9AEFF87BAE3BFBE886CA6A83D00 (void);
+extern void InteractableBaseFunctions_MaterialChanger_mE7DBEF394CEBFDE34FE40528CBB4CB17360133CF (void);
+extern void InteractableBaseFunctions__ctor_m8F56130A75AF5443E25997E192F431DDD26AD30C (void);
 extern void MaterialChanger__ctor_m5AE745DF2DAD12235E235ABF7FEDEA26318AB280 (void);
+extern void Product__ctor_mCFFD41C809BD53FA1C3233F6D7148CEC71025D54 (void);
 extern void PlayerInteract_Start_mE7DCBFEB5ED8DFA0EB727A83AEB4B3C942DDD0CD (void);
 extern void PlayerInteract_Update_m54BBCF88465AE2651A2AB063F487F2B334D5B13A (void);
 extern void PlayerInteract__ctor_m8DCCDCB1265966B6895F6C027C6CA8C0475B2789 (void);
@@ -94,9 +96,12 @@ extern void PlayerUI__ctor_m25228057D467B6416C0249B763FFF27D42149C01 (void);
 extern void ImageList__cctor_m5B12AD86D90BB9CDE58CB1E2B9B16042F5936836 (void);
 extern void ImageLoader_Awake_m383D2C0B0E9159CF493656BB1E5F95EB35625F85 (void);
 extern void ImageLoader__ctor_m5F7ED5DEE698BA00D5AE0FAC8633CF3570674D75 (void);
+extern void JSONLoader_Awake_m1E9D5B767F6EA46B65CB14D7A8A767DA8E6C6639 (void);
+extern void JSONLoader__ctor_mE103F5FCFE7FA80D025AF6685501946774E4C8E9 (void);
+extern void ProductList__cctor_m3332F2252588DCA2644A4084A0F860F6925ADBD6 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[97] = 
+static Il2CppMethodPointer s_methodPointers[102] = 
 {
 	PlayerInput_get_asset_mB150BFBAFA2BC91504C640B0065EF84C41EEF998,
 	PlayerInput__ctor_m24FD924FB39A9A023CDEA8F6916EEC47B471B3A8,
@@ -172,12 +177,14 @@ static Il2CppMethodPointer s_methodPointers[97] =
 	Interactable_BaseInteract_mC9A72A18793A4481517E0A2F17AFB66CC3E2599E,
 	Interactable_Interact_m722C97939145CBEC862EEF9CEE32A14700B12F0F,
 	Interactable__ctor_m9AA3E7B2D2090FE20FD4EDB4AE1FE9BAC5414988,
-	InteractableTest_Start_m15B05E4FF0EE0D892C44D42A8DBC9C423479FCFB,
-	InteractableTest_Update_m6AA3970D0B37E25F976F30EDBE6BCC021E372D3E,
-	InteractableTest_Interact_mB85E519B751676465375054BF271D3E1272393A8,
-	InteractableTest__ctor_m89A1D7063326BAE55226E967C8103BD70780689A,
-	MaterialChanger_Start_mBA07A82FB79871D985094B1D73EF864852EBFFD3,
+	InteractableBaseFunctions_Start_mD4B27BEDEB0A0280F7BF6559D784CD5CEA01A705,
+	InteractableBaseFunctions_Update_m1BEC155EFC84CE3B1DB2956DBB04217CD1D2A8E9,
+	InteractableBaseFunctions_Interact_m88C5A1AB7A20E83A1E889CFF71BE9438B5636414,
+	InteractableBaseFunctions_GetProductInformation_m635886CBAEBEF9AEFF87BAE3BFBE886CA6A83D00,
+	InteractableBaseFunctions_MaterialChanger_mE7DBEF394CEBFDE34FE40528CBB4CB17360133CF,
+	InteractableBaseFunctions__ctor_m8F56130A75AF5443E25997E192F431DDD26AD30C,
 	MaterialChanger__ctor_m5AE745DF2DAD12235E235ABF7FEDEA26318AB280,
+	Product__ctor_mCFFD41C809BD53FA1C3233F6D7148CEC71025D54,
 	PlayerInteract_Start_mE7DCBFEB5ED8DFA0EB727A83AEB4B3C942DDD0CD,
 	PlayerInteract_Update_m54BBCF88465AE2651A2AB063F487F2B334D5B13A,
 	PlayerInteract__ctor_m8DCCDCB1265966B6895F6C027C6CA8C0475B2789,
@@ -193,6 +200,9 @@ static Il2CppMethodPointer s_methodPointers[97] =
 	ImageList__cctor_m5B12AD86D90BB9CDE58CB1E2B9B16042F5936836,
 	ImageLoader_Awake_m383D2C0B0E9159CF493656BB1E5F95EB35625F85,
 	ImageLoader__ctor_m5F7ED5DEE698BA00D5AE0FAC8633CF3570674D75,
+	JSONLoader_Awake_m1E9D5B767F6EA46B65CB14D7A8A767DA8E6C6639,
+	JSONLoader__ctor_mE103F5FCFE7FA80D025AF6685501946774E4C8E9,
+	ProductList__cctor_m3332F2252588DCA2644A4084A0F860F6925ADBD6,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
@@ -261,7 +271,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[31] =
 	{ 0x06000032, UIActions_RemoveCallbacks_m725515876367B0D809D0C2409D3EB9D263E3F6DD_AdjustorThunk },
 	{ 0x06000033, UIActions_SetCallbacks_mD6FB3CEB6A8431680370281AF3B85A39A01F15F3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[97] = 
+static const int32_t s_InvokerIndices[102] = 
 {
 	6389,
 	6511,
@@ -346,6 +356,8 @@ static const int32_t s_InvokerIndices[97] =
 	6511,
 	6511,
 	6511,
+	6511,
+	6511,
 	5244,
 	6511,
 	6511,
@@ -358,6 +370,9 @@ static const int32_t s_InvokerIndices[97] =
 	9531,
 	6511,
 	6511,
+	6511,
+	6511,
+	9531,
 	9540,
 	6511,
 };
@@ -365,7 +380,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	97,
+	102,
 	s_methodPointers,
 	31,
 	s_adjustorThunks,

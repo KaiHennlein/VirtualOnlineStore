@@ -303,14 +303,17 @@
 "Assets/Scripts/CreateMaterailFromTexture2D.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/Interactable.cs"
-"Assets/Scripts/Interactables/InteractableTest.cs"
+"Assets/Scripts/Interactables/InteractableBaseFunctions.cs"
 "Assets/Scripts/MaterialChanger.cs"
+"Assets/Scripts/Models/Product.cs"
 "Assets/Scripts/Player/PlayerInteract.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
 "Assets/Scripts/Player/PlayerMotor.cs"
 "Assets/Scripts/Player/PlayerUI.cs"
 "Assets/Scripts/ResourceLoaders/ImageList.cs"
 "Assets/Scripts/ResourceLoaders/ImageLoader.cs"
+"Assets/Scripts/ResourceLoaders/JSONLoader.cs"
+"Assets/Scripts/ResourceLoaders/ProductList.cs"
 -langversion:9.0
 
 /deterministic

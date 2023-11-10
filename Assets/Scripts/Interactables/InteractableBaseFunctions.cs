@@ -42,7 +42,6 @@ public class InteractableBaseFunctions : Interactable
 
     private void MaterialChanger()
     {
-        /*
         List<Texture2D> list = ImageList.images;
         Texture2D texture2D = ImageList.images.First<Texture2D>();
 
@@ -75,6 +74,5 @@ public class InteractableBaseFunctions : Interactable
             }
         
         }
-        */
     }
 }
