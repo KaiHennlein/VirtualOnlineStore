@@ -79,6 +79,7 @@ extern void InteractableBaseFunctions_Interact_m88C5A1AB7A20E83A1E889CFF71BE9438
 extern void InteractableBaseFunctions_GetProductInformation_m635886CBAEBEF9AEFF87BAE3BFBE886CA6A83D00 (void);
 extern void InteractableBaseFunctions_MaterialChanger_mE7DBEF394CEBFDE34FE40528CBB4CB17360133CF (void);
 extern void InteractableBaseFunctions__ctor_m8F56130A75AF5443E25997E192F431DDD26AD30C (void);
+extern void MaterialChanger_Start_mBA07A82FB79871D985094B1D73EF864852EBFFD3 (void);
 extern void MaterialChanger__ctor_m5AE745DF2DAD12235E235ABF7FEDEA26318AB280 (void);
 extern void Product__ctor_mCFFD41C809BD53FA1C3233F6D7148CEC71025D54 (void);
 extern void PlayerInteract_Start_mE7DCBFEB5ED8DFA0EB727A83AEB4B3C942DDD0CD (void);
@@ -101,7 +102,7 @@ extern void JSONLoader__ctor_mE103F5FCFE7FA80D025AF6685501946774E4C8E9 (void);
 extern void ProductList__cctor_m3332F2252588DCA2644A4084A0F860F6925ADBD6 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[102] = 
+static Il2CppMethodPointer s_methodPointers[103] = 
 {
 	PlayerInput_get_asset_mB150BFBAFA2BC91504C640B0065EF84C41EEF998,
 	PlayerInput__ctor_m24FD924FB39A9A023CDEA8F6916EEC47B471B3A8,
@@ -183,6 +184,7 @@ static Il2CppMethodPointer s_methodPointers[102] =
 	InteractableBaseFunctions_GetProductInformation_m635886CBAEBEF9AEFF87BAE3BFBE886CA6A83D00,
 	InteractableBaseFunctions_MaterialChanger_mE7DBEF394CEBFDE34FE40528CBB4CB17360133CF,
 	InteractableBaseFunctions__ctor_m8F56130A75AF5443E25997E192F431DDD26AD30C,
+	MaterialChanger_Start_mBA07A82FB79871D985094B1D73EF864852EBFFD3,
 	MaterialChanger__ctor_m5AE745DF2DAD12235E235ABF7FEDEA26318AB280,
 	Product__ctor_mCFFD41C809BD53FA1C3233F6D7148CEC71025D54,
 	PlayerInteract_Start_mE7DCBFEB5ED8DFA0EB727A83AEB4B3C942DDD0CD,
@@ -271,7 +273,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[31] =
 	{ 0x06000032, UIActions_RemoveCallbacks_m725515876367B0D809D0C2409D3EB9D263E3F6DD_AdjustorThunk },
 	{ 0x06000033, UIActions_SetCallbacks_mD6FB3CEB6A8431680370281AF3B85A39A01F15F3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[102] = 
+static const int32_t s_InvokerIndices[103] = 
 {
 	6389,
 	6511,
@@ -358,6 +360,7 @@ static const int32_t s_InvokerIndices[102] =
 	6511,
 	6511,
 	6511,
+	6511,
 	5244,
 	6511,
 	6511,
@@ -380,7 +383,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	102,
+	103,
 	s_methodPointers,
 	31,
 	s_adjustorThunks,

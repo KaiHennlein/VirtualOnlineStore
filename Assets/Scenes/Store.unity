@@ -137,7 +137,6 @@ GameObject:
   - component: {fileID: 13024516}
   - component: {fileID: 13024515}
   - component: {fileID: 13024521}
-  - component: {fileID: 13024522}
   m_Layer: 6
   m_Name: TestInteractables
   m_TagString: Untagged
@@ -177,6 +176,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: I was hit!
+  productInformation:
+    ProductName: 
+    ProductID: 
+    Category: 
+    ImageName: 
 --- !u!65 &13024516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -256,18 +260,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13024513}
   m_CullTransparentMesh: 1
---- !u!114 &13024522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13024513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0cebef9836daa645a13834c124e0f2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &17694230
 PrefabInstance:
   m_ObjectHideFlags: 0

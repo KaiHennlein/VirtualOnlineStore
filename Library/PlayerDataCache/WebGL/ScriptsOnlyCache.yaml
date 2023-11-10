@@ -5,7 +5,6 @@ ScriptsOnlyBuild:
     - InputManager
     - InteractableBaseFunctions
     - JSONLoader
-    - MaterialChanger
     - PlayerInteract
     - PlayerLook
     - PlayerMotor
@@ -244,8 +243,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4310}
     - Class: 114
       Script: {instanceID: 4582}
-    - Class: 114
-      Script: {instanceID: 4652}
     - Class: 114
       Script: {instanceID: 4718}
     - Class: 114
