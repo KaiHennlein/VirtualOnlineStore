@@ -355,7 +355,7 @@
 "Assets/Scripts/CreateMaterailFromTexture2D.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/Interactable.cs"
-"Assets/Scripts/Interactables/InteractableTest.cs"
+"Assets/Scripts/Interactables/InteractableBaseFunctions.cs"
 "Assets/Scripts/MaterialChanger.cs"
 "Assets/Scripts/Models/Product.cs"
 "Assets/Scripts/Player/PlayerInteract.cs"

@@ -16,7 +16,6 @@ public class JSONLoader : MonoBehaviour
         {
             foreach (TextAsset jsonFile in jsonFiles)
             {
-                Debug.Log(jsonFile.text);
                 Product product = new Product();
                 product = JsonUtility.FromJson<Product>(jsonFile.text.Trim());
                 products.Add(product);
