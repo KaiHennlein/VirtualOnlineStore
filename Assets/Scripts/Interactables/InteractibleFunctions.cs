@@ -18,7 +18,7 @@ public static class InteractibleFunctions
             }
         }
 
-        ProductList.products.Remove(productInformation);
+        //ProductList.products.Remove(productInformation);
 
         return productInformation;
     }
