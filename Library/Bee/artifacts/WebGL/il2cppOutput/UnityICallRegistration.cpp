@@ -282,10 +282,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_runInBackground();
 		Register_UnityEngine_Application_get_runInBackground();
 
-		//System.Void UnityEngine.Application::Internal_ExternalCall(System.String)
-		void Register_UnityEngine_Application_Internal_ExternalCall();
-		Register_UnityEngine_Application_Internal_ExternalCall();
-
 		//System.Void UnityEngine.Application::OpenURL(System.String)
 		void Register_UnityEngine_Application_OpenURL();
 		Register_UnityEngine_Application_OpenURL();

@@ -1,9 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BottleInteractible
     - ImageLoader
     - InputManager
-    - InteractableBaseFunctions
     - JSONLoader
     - PlayerInteract
     - PlayerLook
@@ -250,87 +250,87 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5018}
     - Class: 114
-      Script: {instanceID: 5120}
-    - Class: 114
-      Script: {instanceID: 5336}
+      Script: {instanceID: 5122}
     - Class: 114
       Script: {instanceID: 5338}
     - Class: 114
-      Script: {instanceID: 5598}
+      Script: {instanceID: 5340}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 5600}
     - Class: 114
-      Script: {instanceID: 6004}
+      Script: {instanceID: 5784}
     - Class: 114
-      Script: {instanceID: 6270}
+      Script: {instanceID: 6006}
     - Class: 114
-      Script: {instanceID: 6422}
+      Script: {instanceID: 6272}
     - Class: 114
-      Script: {instanceID: 7152}
+      Script: {instanceID: 6424}
     - Class: 114
-      Script: {instanceID: 7314}
+      Script: {instanceID: 7154}
     - Class: 114
-      Script: {instanceID: 7396}
+      Script: {instanceID: 7316}
     - Class: 114
-      Script: {instanceID: 7508}
+      Script: {instanceID: 7398}
     - Class: 114
-      Script: {instanceID: 7532}
+      Script: {instanceID: 7512}
     - Class: 114
-      Script: {instanceID: 7622}
+      Script: {instanceID: 7536}
     - Class: 114
-      Script: {instanceID: 7636}
+      Script: {instanceID: 7626}
     - Class: 114
-      Script: {instanceID: 7934}
+      Script: {instanceID: 7640}
     - Class: 114
       Script: {instanceID: 7938}
     - Class: 114
-      Script: {instanceID: 7964}
+      Script: {instanceID: 7942}
     - Class: 114
-      Script: {instanceID: 8066}
+      Script: {instanceID: 7968}
     - Class: 114
-      Script: {instanceID: 8392}
+      Script: {instanceID: 8072}
     - Class: 114
-      Script: {instanceID: 8806}
+      Script: {instanceID: 8398}
     - Class: 114
-      Script: {instanceID: 8822}
+      Script: {instanceID: 8814}
     - Class: 114
-      Script: {instanceID: 8932}
+      Script: {instanceID: 8830}
     - Class: 114
-      Script: {instanceID: 8938}
+      Script: {instanceID: 8940}
     - Class: 114
-      Script: {instanceID: 9052}
+      Script: {instanceID: 8946}
     - Class: 114
-      Script: {instanceID: 9124}
+      Script: {instanceID: 9060}
     - Class: 114
-      Script: {instanceID: 9182}
+      Script: {instanceID: 9132}
     - Class: 114
-      Script: {instanceID: 9254}
+      Script: {instanceID: 9190}
     - Class: 114
-      Script: {instanceID: 9378}
+      Script: {instanceID: 9262}
     - Class: 114
-      Script: {instanceID: 9532}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9750}
+      Script: {instanceID: 9540}
     - Class: 114
-      Script: {instanceID: 9940}
+      Script: {instanceID: 9760}
     - Class: 114
-      Script: {instanceID: 9964}
+      Script: {instanceID: 9950}
     - Class: 114
-      Script: {instanceID: 10008}
+      Script: {instanceID: 9974}
     - Class: 114
-      Script: {instanceID: 10052}
+      Script: {instanceID: 10018}
     - Class: 114
-      Script: {instanceID: 10432}
+      Script: {instanceID: 10062}
     - Class: 114
-      Script: {instanceID: 10534}
+      Script: {instanceID: 10442}
     - Class: 114
-      Script: {instanceID: 11058}
+      Script: {instanceID: 10544}
     - Class: 114
-      Script: {instanceID: 11432}
+      Script: {instanceID: 11068}
     - Class: 114
-      Script: {instanceID: 11558}
+      Script: {instanceID: 11442}
     - Class: 114
-      Script: {instanceID: 11986}
+      Script: {instanceID: 11568}
+    - Class: 114
+      Script: {instanceID: 11996}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -578,10 +578,10 @@ ScriptsOnlyBuild:
     className: SplitToning
   - hash:
       serializedVersion: 2
-      Hash: feb75927fb11f4cfb8dd07ca5eaaac81
+      Hash: f3b1e276d7172644253dab8e6be94e21
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: InteractableBaseFunctions
+    className: BottleInteractible
   - hash:
       serializedVersion: 2
       Hash: dad8b52ecc898f494ba35b6402337f79
@@ -1280,6 +1280,12 @@ ScriptsOnlyBuild:
     className: GlobalMessageListener
   - hash:
       serializedVersion: 2
+      Hash: f3b1e276d7172644253dab8e6be94e21
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CooledInteractible
+  - hash:
+      serializedVersion: 2
       Hash: 892b5093967522535ba980d28ce42084
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -1370,6 +1376,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: f3b1e276d7172644253dab8e6be94e21
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CannedInteractible
+  - hash:
+      serializedVersion: 2
       Hash: 8a20581fdc44f4e1a032de6ae8244810
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -1422,6 +1434,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: UIFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: f3b1e276d7172644253dab8e6be94e21
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BoxInteractible
   - hash:
       serializedVersion: 2
       Hash: a9996d5513cfdb2a18bf40e4b92c4518
@@ -1572,6 +1590,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f3b1e276d7172644253dab8e6be94e21
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FrozenInteractable
   - hash:
       serializedVersion: 2
       Hash: bda375ec9364b61578e45bbeddaa26a0
