@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - ImageLoader
     - InputManager
     - JSONLoader
+    - JarInteractibles
     - PlayerInteract
     - PlayerLook
     - PlayerMotor
@@ -309,6 +310,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9386}
     - Class: 114
       Script: {instanceID: 9540}
+    - Class: 114
+      Script: {instanceID: 9564}
     - Class: 114
       Script: {instanceID: 9762}
     - Class: 114

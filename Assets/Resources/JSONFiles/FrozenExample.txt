@@ -1,0 +1,6 @@
+{
+"ProductName": "Gefrorenes Mehrkorn Brot",
+"ProductID": "000000000004",
+"Category": "Frozen",
+"ImageName": "FrozenExample"
+}

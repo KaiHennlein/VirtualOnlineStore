@@ -1,0 +1,6 @@
+{
+"ProductName": "Milder Sauerländer Käse",
+"ProductID": "000000000003",
+"Category": "Cooled",
+"ImageName": "CooledExample"
+}

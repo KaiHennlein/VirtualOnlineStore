@@ -1,0 +1,6 @@
+{
+"ProductName": "Hofmarke Bio Müsli",
+"ProductID": "000000000001",
+"Category": "Box",
+"ImageName": "BoxExample"
+}
