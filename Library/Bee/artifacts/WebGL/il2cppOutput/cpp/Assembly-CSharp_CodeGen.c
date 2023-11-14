@@ -92,6 +92,11 @@ extern void Interactable_BaseInteract_mC9A72A18793A4481517E0A2F17AFB66CC3E2599E 
 extern void Interactable_Interact_m722C97939145CBEC862EEF9CEE32A14700B12F0F (void);
 extern void Interactable__ctor_m9AA3E7B2D2090FE20FD4EDB4AE1FE9BAC5414988 (void);
 extern void InteractibleFunctions_GetProductInformation_m7D7862A548D31ED295327503B295982E87AB0027 (void);
+extern void JarInteractibles_Start_mF8EEE89B78B68706DBC16EF75DB46EA418CFF6FF (void);
+extern void JarInteractibles_Update_m47A389FC22F24952A35CB6A35CE2259D029BA8ED (void);
+extern void JarInteractibles_Interact_mF80F1294C6F4A53AC1DE0C88B2775A67E2996B56 (void);
+extern void JarInteractibles_MaterialChanger_m4D5E75035420A79193F92A616B8C32D731EFB224 (void);
+extern void JarInteractibles__ctor_mFC80D45050159CC51CA1EB6B24212F4309183495 (void);
 extern void CreateMaterailFromTexture2D_create_m5CF4847352F7CC146440A1A0DFEFAA7EBE52EC1E (void);
 extern void MaterialChanger_Start_mBA07A82FB79871D985094B1D73EF864852EBFFD3 (void);
 extern void MaterialChanger__ctor_m5AE745DF2DAD12235E235ABF7FEDEA26318AB280 (void);
@@ -122,7 +127,7 @@ extern void JSONLoader__ctor_mE103F5FCFE7FA80D025AF6685501946774E4C8E9 (void);
 extern void ProductList__cctor_m3332F2252588DCA2644A4084A0F860F6925ADBD6 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[123] = 
+static Il2CppMethodPointer s_methodPointers[128] = 
 {
 	PlayerInput_get_asset_mB150BFBAFA2BC91504C640B0065EF84C41EEF998,
 	PlayerInput__ctor_m24FD924FB39A9A023CDEA8F6916EEC47B471B3A8,
@@ -217,6 +222,11 @@ static Il2CppMethodPointer s_methodPointers[123] =
 	Interactable_Interact_m722C97939145CBEC862EEF9CEE32A14700B12F0F,
 	Interactable__ctor_m9AA3E7B2D2090FE20FD4EDB4AE1FE9BAC5414988,
 	InteractibleFunctions_GetProductInformation_m7D7862A548D31ED295327503B295982E87AB0027,
+	JarInteractibles_Start_mF8EEE89B78B68706DBC16EF75DB46EA418CFF6FF,
+	JarInteractibles_Update_m47A389FC22F24952A35CB6A35CE2259D029BA8ED,
+	JarInteractibles_Interact_mF80F1294C6F4A53AC1DE0C88B2775A67E2996B56,
+	JarInteractibles_MaterialChanger_m4D5E75035420A79193F92A616B8C32D731EFB224,
+	JarInteractibles__ctor_mFC80D45050159CC51CA1EB6B24212F4309183495,
 	CreateMaterailFromTexture2D_create_m5CF4847352F7CC146440A1A0DFEFAA7EBE52EC1E,
 	MaterialChanger_Start_mBA07A82FB79871D985094B1D73EF864852EBFFD3,
 	MaterialChanger__ctor_m5AE745DF2DAD12235E235ABF7FEDEA26318AB280,
@@ -313,7 +323,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[31] =
 	{ 0x06000032, UIActions_RemoveCallbacks_m725515876367B0D809D0C2409D3EB9D263E3F6DD_AdjustorThunk },
 	{ 0x06000033, UIActions_SetCallbacks_mD6FB3CEB6A8431680370281AF3B85A39A01F15F3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[123] = 
+static const int32_t s_InvokerIndices[128] = 
 {
 	6389,
 	6511,
@@ -408,6 +418,11 @@ static const int32_t s_InvokerIndices[123] =
 	6511,
 	6511,
 	9128,
+	6511,
+	6511,
+	6511,
+	6511,
+	6511,
 	9128,
 	6511,
 	6511,
@@ -443,7 +458,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	123,
+	128,
 	s_methodPointers,
 	31,
 	s_adjustorThunks,

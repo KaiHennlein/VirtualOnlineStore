@@ -310,27 +310,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9540}
     - Class: 114
-      Script: {instanceID: 9760}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9950}
+      Script: {instanceID: 9952}
     - Class: 114
-      Script: {instanceID: 9974}
+      Script: {instanceID: 9976}
     - Class: 114
-      Script: {instanceID: 10018}
+      Script: {instanceID: 10020}
     - Class: 114
-      Script: {instanceID: 10062}
+      Script: {instanceID: 10064}
     - Class: 114
-      Script: {instanceID: 10442}
+      Script: {instanceID: 10444}
     - Class: 114
-      Script: {instanceID: 10544}
+      Script: {instanceID: 10546}
     - Class: 114
-      Script: {instanceID: 11068}
+      Script: {instanceID: 11070}
     - Class: 114
-      Script: {instanceID: 11442}
+      Script: {instanceID: 11444}
     - Class: 114
-      Script: {instanceID: 11568}
+      Script: {instanceID: 11570}
     - Class: 114
-      Script: {instanceID: 11996}
+      Script: {instanceID: 11998}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1566,6 +1566,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: f3b1e276d7172644253dab8e6be94e21
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: JarInteractibles
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b

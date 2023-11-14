@@ -307,6 +307,7 @@
 "Assets/Scripts/Interactables/FrozenInteractable.cs"
 "Assets/Scripts/Interactables/Interactable.cs"
 "Assets/Scripts/Interactables/InteractibleFunctions.cs"
+"Assets/Scripts/Interactables/JarInteractibles.cs"
 "Assets/Scripts/MaterialChanger/CreateMaterailFromTexture2D.cs"
 "Assets/Scripts/MaterialChanger/MaterialChanger.cs"
 "Assets/Scripts/Models/Product.cs"
