@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BottleInteractible
+    - BoxInteractible
+    - CannedInteractible
     - ImageLoader
     - InputManager
     - JSONLoader
@@ -287,9 +289,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7968}
     - Class: 114
+      Script: {instanceID: 8020}
+    - Class: 114
       Script: {instanceID: 8072}
     - Class: 114
       Script: {instanceID: 8398}
+    - Class: 114
+      Script: {instanceID: 8538}
     - Class: 114
       Script: {instanceID: 8814}
     - Class: 114
@@ -337,6 +343,8 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
@@ -581,7 +589,7 @@ ScriptsOnlyBuild:
     className: SplitToning
   - hash:
       serializedVersion: 2
-      Hash: f3b1e276d7172644253dab8e6be94e21
+      Hash: 33976f713747fa44f36f69e3bc95de5c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BottleInteractible
@@ -1283,7 +1291,7 @@ ScriptsOnlyBuild:
     className: GlobalMessageListener
   - hash:
       serializedVersion: 2
-      Hash: f3b1e276d7172644253dab8e6be94e21
+      Hash: 33976f713747fa44f36f69e3bc95de5c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CooledInteractible
@@ -1379,7 +1387,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: f3b1e276d7172644253dab8e6be94e21
+      Hash: 33976f713747fa44f36f69e3bc95de5c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CannedInteractible
@@ -1439,7 +1447,7 @@ ScriptsOnlyBuild:
     className: UIFoldout
   - hash:
       serializedVersion: 2
-      Hash: f3b1e276d7172644253dab8e6be94e21
+      Hash: 33976f713747fa44f36f69e3bc95de5c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BoxInteractible
@@ -1571,7 +1579,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerCanvas
   - hash:
       serializedVersion: 2
-      Hash: f3b1e276d7172644253dab8e6be94e21
+      Hash: 33976f713747fa44f36f69e3bc95de5c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: JarInteractibles
@@ -1601,7 +1609,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: f3b1e276d7172644253dab8e6be94e21
+      Hash: 33976f713747fa44f36f69e3bc95de5c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: FrozenInteractable
