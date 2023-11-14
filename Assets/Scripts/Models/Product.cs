@@ -5,5 +5,6 @@ public class Product
     public string ProductID;
     public string Category;
     public string ImageName;
+    public string ProductDescription;
     //Cant use getter and setter because JsonUtility from Unity doesnt work with them implemented
 }
