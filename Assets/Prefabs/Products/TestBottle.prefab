@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3241473105330674246}
   - component: {fileID: 3959517494803831300}
   - component: {fileID: 1386589168937171467}
-  - component: {fileID: 106861129466045872}
   - component: {fileID: 7817916713652836722}
   m_Layer: 6
   m_Name: TestBottle
@@ -111,14 +110,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!222 &106861129466045872
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9120303192437308970}
-  m_CullTransparentMesh: 1
 --- !u!114 &7817916713652836722
 MonoBehaviour:
   m_ObjectHideFlags: 0

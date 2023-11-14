@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7799049480578204895}
   - component: {fileID: 2714330487553343307}
   - component: {fileID: 3745305953010695351}
-  - component: {fileID: 4928420285628440707}
   - component: {fileID: 3291970563132575832}
-  m_Layer: 0
+  - component: {fileID: 4928420285628440707}
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,25 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4928420285628440707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3610916967762724964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6e653c2a91d4e74e9a24883c0c94262, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: 
-  category: Box
-  productInformation:
-    ProductName: 
-    ProductID: 
-    Category: 
-    ImageName: 
 --- !u!65 &3291970563132575832
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -125,3 +106,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4928420285628440707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3610916967762724964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6e653c2a91d4e74e9a24883c0c94262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  promptMessage: Kekse
+  category: Box
+  productInformation:
+    ProductName: 
+    ProductID: 
+    Category: 
+    ImageName: 

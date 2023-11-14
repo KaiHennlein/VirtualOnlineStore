@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6937702059053100604}
   - component: {fileID: 8999062060136598647}
   - component: {fileID: 7161767135464869341}
-  - component: {fileID: 4417469105299842005}
   - component: {fileID: -4682034516924636272}
-  m_Layer: 0
+  - component: {fileID: 4417469105299842005}
+  m_Layer: 6
   m_Name: Jar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,25 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4417469105299842005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2501663927687440062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe7913f74d5670c4091c6b51663fa85c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Einmachglas
-  category: Jar
-  productInformation:
-    ProductName: 
-    ProductID: 
-    Category: 
-    ImageName: 
 --- !u!65 &-4682034516924636272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -125,3 +106,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4417469105299842005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2501663927687440062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7913f74d5670c4091c6b51663fa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  promptMessage: Einmachglas
+  category: Jar
+  productInformation:
+    ProductName: 
+    ProductID: 
+    Category: 
+    ImageName: 
