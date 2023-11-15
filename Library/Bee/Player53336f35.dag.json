@@ -488,7 +488,15 @@
         480,
         481,
         482,
-        483
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -1530,7 +1538,7 @@
       "DisplayName": "Running Burst Compiler",
       "ActionType": "RunRPCCommand",
       "PayloadOffset": 84251,
-      "PayloadLength": 2891,
+      "PayloadLength": 3022,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Da",
       "Action": "GenerateNativePluginsForAssemblies",
       "Inputs": [
@@ -1542,6 +1550,8 @@
         "Library/Bee/artifacts/WebGL/ManagedStripped/System.Core.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/System.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/System.Xml.dll",
+        "Library/Bee/artifacts/WebGL/ManagedStripped/Unity.Burst.dll",
+        "Library/Bee/artifacts/WebGL/ManagedStripped/Unity.Burst.Unsafe.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/Unity.InputSystem.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/Unity.InputSystem.ForUI.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/Unity.RenderPipelines.Core.Runtime.dll",
@@ -1595,7 +1605,7 @@
     {
       "Annotation": "IL2CPP_CodeGen D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/il2cpp_conv_np5y.traceevents",
       "DisplayName": "IL2CPP_CodeGen il2cpp_conv_np5y",
-      "Action": "\"C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\il2cpp/build/deploy/il2cpp.exe\" --convert-to-cpp --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Assembly-CSharp-firstpass.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Assembly-CSharp.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Mono.Security.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/mscorlib.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Configuration.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Core.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Xml.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.InputSystem.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.InputSystem.ForUI.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.RenderPipelines.Core.Runtime.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.TextMeshPro.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AnimationModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.GridModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.IMGUIModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.JSONSerializeModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.Physics2DModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SpriteShapeModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SubsystemsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextRenderingModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TilemapModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UI.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIElementsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.VRModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.XRModule.dll\" --generatedcppdir=\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" --symbols-folder=\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Symbols\" --enable-analytics --emit-method-map --dotnetprofile=unityaot-linux --profiler-report --profiler-output-file=\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/il2cpp_conv_np5y.traceevents\" --print-command-line --data-folder=\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/data\"",
+      "Action": "\"C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\il2cpp/build/deploy/il2cpp.exe\" --convert-to-cpp --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Assembly-CSharp-firstpass.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Assembly-CSharp.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Mono.Security.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/mscorlib.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Configuration.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Core.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Xml.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.Burst.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.Burst.Unsafe.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.InputSystem.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.InputSystem.ForUI.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.RenderPipelines.Core.Runtime.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.TextMeshPro.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AnimationModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.GridModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.IMGUIModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.JSONSerializeModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.Physics2DModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SpriteShapeModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SubsystemsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextRenderingModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TilemapModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UI.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIElementsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.VRModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.XRModule.dll\" --generatedcppdir=\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" --symbols-folder=\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Symbols\" --enable-analytics --emit-method-map --dotnetprofile=unityaot-linux --profiler-report --profiler-output-file=\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/il2cpp_conv_np5y.traceevents\" --print-command-line --data-folder=\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/data\"",
       "ProfilerOutput": "D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/il2cpp_conv_np5y.traceevents",
       "Inputs": [
         "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/build/deploy/Analytics.Api.Output.dll",
@@ -1910,6 +1920,8 @@
         "Library/Bee/artifacts/WebGL/ManagedStripped/System.Core.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/System.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/System.Xml.dll",
+        "Library/Bee/artifacts/WebGL/ManagedStripped/Unity.Burst.dll",
+        "Library/Bee/artifacts/WebGL/ManagedStripped/Unity.Burst.Unsafe.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/Unity.InputSystem.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/Unity.InputSystem.ForUI.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/Unity.RenderPipelines.Core.Runtime.dll",
@@ -2003,7 +2015,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_xbbh.info",
       "DisplayName": "Writing UnityClassRegistration.cpp_xbbh.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 87246,
+      "PayloadOffset": 87377,
       "PayloadLength": 1242,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Cl",
       "Inputs": [],
@@ -2111,7 +2123,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WebGL/bdwgc/release_WebGL_wasm/_dummy_for_header_discovery",
       "DisplayName": "Writing _dummy_for_header_discovery",
       "ActionType": "WriteFile",
-      "PayloadOffset": 88600,
+      "PayloadOffset": 88731,
       "PayloadLength": 28,
       "PayloadDebugContentSnippet": "//dummy for header discovery",
       "Inputs": [],
@@ -2216,7 +2228,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/_dummy_for_header_discovery",
       "DisplayName": "Writing _dummy_for_header_discovery",
       "ActionType": "WriteFile",
-      "PayloadOffset": 88739,
+      "PayloadOffset": 88870,
       "PayloadLength": 28,
       "PayloadDebugContentSnippet": "//dummy for header discovery",
       "Inputs": [],
@@ -2862,7 +2874,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/484npgi5a9mx0.lump.cpp",
       "DisplayName": "Writing 484npgi5a9mx0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 88874,
+      "PayloadOffset": 89005,
       "PayloadLength": 690,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -2883,7 +2895,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/80x6r61i3cyn0.lump.cpp",
       "DisplayName": "Writing 80x6r61i3cyn0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 89671,
+      "PayloadOffset": 89802,
       "PayloadLength": 416,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -2901,7 +2913,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/77j62k187r7x0.lump.cpp",
       "DisplayName": "Writing 77j62k187r7x0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 90194,
+      "PayloadOffset": 90325,
       "PayloadLength": 681,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -2922,7 +2934,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/1c90qqo2sqyd0.lump.cpp",
       "DisplayName": "Writing 1c90qqo2sqyd0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 90982,
+      "PayloadOffset": 91113,
       "PayloadLength": 688,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -2942,7 +2954,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/n63kpelorvwk0.lump.cpp",
       "DisplayName": "Writing n63kpelorvwk0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 91777,
+      "PayloadOffset": 91908,
       "PayloadLength": 464,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -2960,7 +2972,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/4bal999uh0hs0.lump.cpp",
       "DisplayName": "Writing 4bal999uh0hs0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 92348,
+      "PayloadOffset": 92479,
       "PayloadLength": 745,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -2980,7 +2992,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/n4jbyxqa5ka20.lump.cpp",
       "DisplayName": "Writing n4jbyxqa5ka20.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 93200,
+      "PayloadOffset": 93331,
       "PayloadLength": 559,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -2999,7 +3011,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/sszmrvcm4xz10.lump.cpp",
       "DisplayName": "Writing sszmrvcm4xz10.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 93866,
+      "PayloadOffset": 93997,
       "PayloadLength": 741,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3019,7 +3031,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/sszmrvcm4xz11.lump.cpp",
       "DisplayName": "Writing sszmrvcm4xz11.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 94714,
+      "PayloadOffset": 94845,
       "PayloadLength": 1143,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3042,7 +3054,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/sszmrvcm4xz12.lump.cpp",
       "DisplayName": "Writing sszmrvcm4xz12.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 95964,
+      "PayloadOffset": 96095,
       "PayloadLength": 752,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3062,7 +3074,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/8v79l7ggipxo0.lump.cpp",
       "DisplayName": "Writing 8v79l7ggipxo0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 96823,
+      "PayloadOffset": 96954,
       "PayloadLength": 505,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3080,7 +3092,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/sd1wvo6y9ytt0.lump.cpp",
       "DisplayName": "Writing sd1wvo6y9ytt0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 97435,
+      "PayloadOffset": 97566,
       "PayloadLength": 372,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3097,7 +3109,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/hoeiug6dm5vl0.lump.cpp",
       "DisplayName": "Writing hoeiug6dm5vl0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 97914,
+      "PayloadOffset": 98045,
       "PayloadLength": 515,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3115,7 +3127,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/2esge9tu469a0.lump.cpp",
       "DisplayName": "Writing 2esge9tu469a0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 98536,
+      "PayloadOffset": 98667,
       "PayloadLength": 327,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3132,7 +3144,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/3971pf9mmwqq0.lump.cpp",
       "DisplayName": "Writing 3971pf9mmwqq0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 98970,
+      "PayloadOffset": 99101,
       "PayloadLength": 1125,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3155,7 +3167,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ddvvmb9m3lv20.lump.cpp",
       "DisplayName": "Writing ddvvmb9m3lv20.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 100202,
+      "PayloadOffset": 100333,
       "PayloadLength": 433,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3173,7 +3185,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ddvvmb9m3lv21.lump.cpp",
       "DisplayName": "Writing ddvvmb9m3lv21.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 100742,
+      "PayloadOffset": 100873,
       "PayloadLength": 923,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3195,7 +3207,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ddvvmb9m3lv22.lump.cpp",
       "DisplayName": "Writing ddvvmb9m3lv22.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 101772,
+      "PayloadOffset": 101903,
       "PayloadLength": 671,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3215,7 +3227,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ddvvmb9m3lv23.lump.cpp",
       "DisplayName": "Writing ddvvmb9m3lv23.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 102550,
+      "PayloadOffset": 102681,
       "PayloadLength": 1259,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3240,7 +3252,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/xxgew4oaxryp0.lump.cpp",
       "DisplayName": "Writing xxgew4oaxryp0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 103916,
+      "PayloadOffset": 104047,
       "PayloadLength": 601,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3259,7 +3271,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/yafsytg1ikwq0.lump.cpp",
       "DisplayName": "Writing yafsytg1ikwq0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 104624,
+      "PayloadOffset": 104755,
       "PayloadLength": 379,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3276,7 +3288,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wy53zac5wj940.lump.cpp",
       "DisplayName": "Writing wy53zac5wj940.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 105110,
+      "PayloadOffset": 105241,
       "PayloadLength": 331,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3293,7 +3305,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/iuvkom58jbq50.lump.cpp",
       "DisplayName": "Writing iuvkom58jbq50.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 105548,
+      "PayloadOffset": 105679,
       "PayloadLength": 990,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3316,7 +3328,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/iuvkom58jbq51.lump.cpp",
       "DisplayName": "Writing iuvkom58jbq51.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 106645,
+      "PayloadOffset": 106776,
       "PayloadLength": 643,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3336,7 +3348,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/iuvkom58jbq52.lump.cpp",
       "DisplayName": "Writing iuvkom58jbq52.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 107395,
+      "PayloadOffset": 107526,
       "PayloadLength": 656,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3356,7 +3368,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ze1do966hbhx0.lump.cpp",
       "DisplayName": "Writing ze1do966hbhx0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 108158,
+      "PayloadOffset": 108289,
       "PayloadLength": 680,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3376,7 +3388,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/fw49etnx0sou0.lump.cpp",
       "DisplayName": "Writing fw49etnx0sou0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 108945,
+      "PayloadOffset": 109076,
       "PayloadLength": 504,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3395,7 +3407,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wo99lkj5k00k0.lump.cpp",
       "DisplayName": "Writing wo99lkj5k00k0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 109556,
+      "PayloadOffset": 109687,
       "PayloadLength": 582,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3415,7 +3427,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/wo99lkj5k00k1.lump.cpp",
       "DisplayName": "Writing wo99lkj5k00k1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 110245,
+      "PayloadOffset": 110376,
       "PayloadLength": 792,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3437,7 +3449,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/0dboy327m2te0.lump.cpp",
       "DisplayName": "Writing 0dboy327m2te0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 111144,
+      "PayloadOffset": 111275,
       "PayloadLength": 995,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3460,7 +3472,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/nmc6xa2lquos0.lump.cpp",
       "DisplayName": "Writing nmc6xa2lquos0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 112246,
+      "PayloadOffset": 112377,
       "PayloadLength": 874,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3483,7 +3495,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/nmc6xa2lquos1.lump.cpp",
       "DisplayName": "Writing nmc6xa2lquos1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 113227,
+      "PayloadOffset": 113358,
       "PayloadLength": 763,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3505,7 +3517,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/rrf809lhj43h0.lump.cpp",
       "DisplayName": "Writing rrf809lhj43h0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 114097,
+      "PayloadOffset": 114228,
       "PayloadLength": 402,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3523,7 +3535,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/rrf809lhj43h1.lump.cpp",
       "DisplayName": "Writing rrf809lhj43h1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 114606,
+      "PayloadOffset": 114737,
       "PayloadLength": 1043,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3547,7 +3559,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/rrf809lhj43h2.lump.cpp",
       "DisplayName": "Writing rrf809lhj43h2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 115756,
+      "PayloadOffset": 115887,
       "PayloadLength": 826,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3569,7 +3581,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/s2irpxr1oqzl0.lump.cpp",
       "DisplayName": "Writing s2irpxr1oqzl0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 116689,
+      "PayloadOffset": 116820,
       "PayloadLength": 482,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3588,7 +3600,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/z8owgdri66kk0.lump.cpp",
       "DisplayName": "Writing z8owgdri66kk0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 117278,
+      "PayloadOffset": 117409,
       "PayloadLength": 697,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3609,7 +3621,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/z8owgdri66kk1.lump.cpp",
       "DisplayName": "Writing z8owgdri66kk1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 118082,
+      "PayloadOffset": 118213,
       "PayloadLength": 720,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3630,7 +3642,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/z8owgdri66kk2.lump.cpp",
       "DisplayName": "Writing z8owgdri66kk2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 118909,
+      "PayloadOffset": 119040,
       "PayloadLength": 707,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3651,7 +3663,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/z8owgdri66kk3.lump.cpp",
       "DisplayName": "Writing z8owgdri66kk3.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 119723,
+      "PayloadOffset": 119854,
       "PayloadLength": 1222,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3677,7 +3689,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/r4b458llnqgm0.lump.cpp",
       "DisplayName": "Writing r4b458llnqgm0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 121052,
+      "PayloadOffset": 121183,
       "PayloadLength": 603,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3697,7 +3709,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/r4b458llnqgm1.lump.cpp",
       "DisplayName": "Writing r4b458llnqgm1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 121762,
+      "PayloadOffset": 121893,
       "PayloadLength": 580,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3717,7 +3729,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/r4b458llnqgm2.lump.cpp",
       "DisplayName": "Writing r4b458llnqgm2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 122449,
+      "PayloadOffset": 122580,
       "PayloadLength": 1455,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3745,7 +3757,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/r4b458llnqgm3.lump.cpp",
       "DisplayName": "Writing r4b458llnqgm3.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 124011,
+      "PayloadOffset": 124142,
       "PayloadLength": 708,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3766,7 +3778,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/r4b458llnqgm4.lump.cpp",
       "DisplayName": "Writing r4b458llnqgm4.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 124826,
+      "PayloadOffset": 124957,
       "PayloadLength": 824,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3788,7 +3800,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/a59z3updg66i0.lump.cpp",
       "DisplayName": "Writing a59z3updg66i0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 125757,
+      "PayloadOffset": 125888,
       "PayloadLength": 605,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3808,7 +3820,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/a59z3updg66i1.lump.cpp",
       "DisplayName": "Writing a59z3updg66i1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 126469,
+      "PayloadOffset": 126600,
       "PayloadLength": 620,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3828,7 +3840,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/m5nbh9i1bhln0.lump.cpp",
       "DisplayName": "Writing m5nbh9i1bhln0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 127196,
+      "PayloadOffset": 127327,
       "PayloadLength": 471,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3847,7 +3859,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/m5nbh9i1bhln1.lump.cpp",
       "DisplayName": "Writing m5nbh9i1bhln1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 127774,
+      "PayloadOffset": 127905,
       "PayloadLength": 790,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3869,7 +3881,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/m5nbh9i1bhln2.lump.cpp",
       "DisplayName": "Writing m5nbh9i1bhln2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 128671,
+      "PayloadOffset": 128802,
       "PayloadLength": 714,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3890,7 +3902,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/203ph9ykzati0.lump.cpp",
       "DisplayName": "Writing 203ph9ykzati0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 129492,
+      "PayloadOffset": 129623,
       "PayloadLength": 822,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3912,7 +3924,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/v1xr4p1jmvmf0.lump.cpp",
       "DisplayName": "Writing v1xr4p1jmvmf0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 130421,
+      "PayloadOffset": 130552,
       "PayloadLength": 317,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3929,7 +3941,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/y8oszz7ekokl0.lump.cpp",
       "DisplayName": "Writing y8oszz7ekokl0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 130845,
+      "PayloadOffset": 130976,
       "PayloadLength": 772,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3951,7 +3963,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/y8oszz7ekokl1.lump.cpp",
       "DisplayName": "Writing y8oszz7ekokl1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 131724,
+      "PayloadOffset": 131855,
       "PayloadLength": 868,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3974,7 +3986,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/y8oszz7ekokl2.lump.cpp",
       "DisplayName": "Writing y8oszz7ekokl2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 132699,
+      "PayloadOffset": 132830,
       "PayloadLength": 955,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3998,7 +4010,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/y8oszz7ekokl3.lump.cpp",
       "DisplayName": "Writing y8oszz7ekokl3.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 133761,
+      "PayloadOffset": 133892,
       "PayloadLength": 1273,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -4025,7 +4037,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/y8oszz7ekokl4.lump.cpp",
       "DisplayName": "Writing y8oszz7ekokl4.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 135141,
+      "PayloadOffset": 135272,
       "PayloadLength": 863,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -4048,7 +4060,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/y8oszz7ekokl5.lump.cpp",
       "DisplayName": "Writing y8oszz7ekokl5.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 136111,
+      "PayloadOffset": 136242,
       "PayloadLength": 680,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -4069,7 +4081,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/y8oszz7ekokl6.lump.cpp",
       "DisplayName": "Writing y8oszz7ekokl6.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 136898,
+      "PayloadOffset": 137029,
       "PayloadLength": 363,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -4087,7 +4099,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/_dummy_for_header_discovery",
       "DisplayName": "Writing _dummy_for_header_discovery",
       "ActionType": "WriteFile",
-      "PayloadOffset": 137374,
+      "PayloadOffset": 137505,
       "PayloadLength": 28,
       "PayloadDebugContentSnippet": "//dummy for header discovery",
       "Inputs": [],
@@ -9251,7 +9263,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/_dummy_for_header_discovery",
       "DisplayName": "Writing _dummy_for_header_discovery",
       "ActionType": "WriteFile",
-      "PayloadOffset": 137521,
+      "PayloadOffset": 137652,
       "PayloadLength": 28,
       "PayloadDebugContentSnippet": "//dummy for header discovery",
       "Inputs": [],
@@ -13399,6 +13411,53 @@
       "ScannerIndex": 3
     },
     {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/v44bokrspdf1.o",
+      "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
+      "Action": "\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/v44bokrspdf1.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateTypeValues1.cpp\"",
+      "Inputs": [
+        "D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateTypeValues1.cpp",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/v44bokrspdf1.o"
+      ],
+      "ToBuildDependencies": [
+        6
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 290,
+      "ScannerIndex": 3
+    },
+    {
       "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bydwxpva253s.o",
       "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
       "Action": "\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bydwxpva253s.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCFieldValuesTable.cpp\"",
@@ -13442,7 +13501,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 290,
+      "DebugActionIndex": 291,
       "ScannerIndex": 3
     },
     {
@@ -13489,7 +13548,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 291,
+      "DebugActionIndex": 292,
       "ScannerIndex": 3
     },
     {
@@ -13536,7 +13595,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 292,
+      "DebugActionIndex": 293,
       "ScannerIndex": 3
     },
     {
@@ -13583,7 +13642,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 293,
+      "DebugActionIndex": 294,
       "ScannerIndex": 3
     },
     {
@@ -13630,7 +13689,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 294,
+      "DebugActionIndex": 295,
       "ScannerIndex": 3
     },
     {
@@ -13677,7 +13736,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 295,
+      "DebugActionIndex": 296,
       "ScannerIndex": 3
     },
     {
@@ -13724,7 +13783,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 296,
+      "DebugActionIndex": 297,
       "ScannerIndex": 3
     },
     {
@@ -13771,7 +13830,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 297,
+      "DebugActionIndex": 298,
       "ScannerIndex": 3
     },
     {
@@ -13818,7 +13877,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 298,
+      "DebugActionIndex": 299,
       "ScannerIndex": 3
     },
     {
@@ -13865,7 +13924,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 299,
+      "DebugActionIndex": 300,
       "ScannerIndex": 3
     },
     {
@@ -13912,7 +13971,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 300,
+      "DebugActionIndex": 301,
       "ScannerIndex": 3
     },
     {
@@ -13959,7 +14018,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 301,
+      "DebugActionIndex": 302,
       "ScannerIndex": 3
     },
     {
@@ -14006,7 +14065,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 302,
+      "DebugActionIndex": 303,
       "ScannerIndex": 3
     },
     {
@@ -14053,7 +14112,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 303,
+      "DebugActionIndex": 304,
       "ScannerIndex": 3
     },
     {
@@ -14100,7 +14159,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 304,
+      "DebugActionIndex": 305,
       "ScannerIndex": 3
     },
     {
@@ -14147,7 +14206,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 305,
+      "DebugActionIndex": 306,
       "ScannerIndex": 3
     },
     {
@@ -14194,7 +14253,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 306,
+      "DebugActionIndex": 307,
       "ScannerIndex": 3
     },
     {
@@ -14241,7 +14300,54 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 307,
+      "DebugActionIndex": 308,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/he2fc9troro8.o",
+      "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
+      "Action": "\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/he2fc9troro8.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__18.cpp\"",
+      "Inputs": [
+        "D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__18.cpp",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/he2fc9troro8.o"
+      ],
+      "ToBuildDependencies": [
+        6
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 309,
       "ScannerIndex": 3
     },
     {
@@ -14288,7 +14394,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 308,
+      "DebugActionIndex": 310,
       "ScannerIndex": 3
     },
     {
@@ -14335,7 +14441,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 309,
+      "DebugActionIndex": 311,
       "ScannerIndex": 3
     },
     {
@@ -14382,7 +14488,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 310,
+      "DebugActionIndex": 312,
       "ScannerIndex": 3
     },
     {
@@ -14429,7 +14535,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 311,
+      "DebugActionIndex": 313,
       "ScannerIndex": 3
     },
     {
@@ -14476,7 +14582,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 312,
+      "DebugActionIndex": 314,
       "ScannerIndex": 3
     },
     {
@@ -14523,7 +14629,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 313,
+      "DebugActionIndex": 315,
       "ScannerIndex": 3
     },
     {
@@ -14570,7 +14676,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 314,
+      "DebugActionIndex": 316,
       "ScannerIndex": 3
     },
     {
@@ -14617,7 +14723,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 315,
+      "DebugActionIndex": 317,
       "ScannerIndex": 3
     },
     {
@@ -14664,7 +14770,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 316,
+      "DebugActionIndex": 318,
       "ScannerIndex": 3
     },
     {
@@ -14711,7 +14817,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 317,
+      "DebugActionIndex": 319,
       "ScannerIndex": 3
     },
     {
@@ -14758,7 +14864,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 318,
+      "DebugActionIndex": 320,
       "ScannerIndex": 3
     },
     {
@@ -14805,7 +14911,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 319,
+      "DebugActionIndex": 321,
       "ScannerIndex": 3
     },
     {
@@ -14852,7 +14958,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 320,
+      "DebugActionIndex": 322,
       "ScannerIndex": 3
     },
     {
@@ -14899,7 +15005,195 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 321,
+      "DebugActionIndex": 323,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ognau4op7ci4.o",
+      "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
+      "Action": "\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ognau4op7ci4.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst.cpp\"",
+      "Inputs": [
+        "D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst.cpp",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ognau4op7ci4.o"
+      ],
+      "ToBuildDependencies": [
+        6
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 324,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i24xj9dtouv2.o",
+      "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
+      "Action": "\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i24xj9dtouv2.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst.Unsafe.cpp\"",
+      "Inputs": [
+        "D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst.Unsafe.cpp",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i24xj9dtouv2.o"
+      ],
+      "ToBuildDependencies": [
+        6
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 325,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rjlljz6hhuvb.o",
+      "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
+      "Action": "\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rjlljz6hhuvb.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst__1.cpp\"",
+      "Inputs": [
+        "D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst__1.cpp",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rjlljz6hhuvb.o"
+      ],
+      "ToBuildDependencies": [
+        6
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 326,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sr513englwcr.o",
+      "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
+      "Action": "\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sr513englwcr.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst__2.cpp\"",
+      "Inputs": [
+        "D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst__2.cpp",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sr513englwcr.o"
+      ],
+      "ToBuildDependencies": [
+        6
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 327,
       "ScannerIndex": 3
     },
     {
@@ -14946,7 +15240,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 322,
+      "DebugActionIndex": 328,
       "ScannerIndex": 3
     },
     {
@@ -14993,7 +15287,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 323,
+      "DebugActionIndex": 329,
       "ScannerIndex": 3
     },
     {
@@ -15040,7 +15334,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 324,
+      "DebugActionIndex": 330,
       "ScannerIndex": 3
     },
     {
@@ -15087,7 +15381,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 325,
+      "DebugActionIndex": 331,
       "ScannerIndex": 3
     },
     {
@@ -15134,7 +15428,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 326,
+      "DebugActionIndex": 332,
       "ScannerIndex": 3
     },
     {
@@ -15181,7 +15475,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 327,
+      "DebugActionIndex": 333,
       "ScannerIndex": 3
     },
     {
@@ -15228,7 +15522,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 328,
+      "DebugActionIndex": 334,
       "ScannerIndex": 3
     },
     {
@@ -15275,7 +15569,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 329,
+      "DebugActionIndex": 335,
       "ScannerIndex": 3
     },
     {
@@ -15322,7 +15616,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 330,
+      "DebugActionIndex": 336,
       "ScannerIndex": 3
     },
     {
@@ -15369,7 +15663,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 331,
+      "DebugActionIndex": 337,
       "ScannerIndex": 3
     },
     {
@@ -15416,7 +15710,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 332,
+      "DebugActionIndex": 338,
       "ScannerIndex": 3
     },
     {
@@ -15463,7 +15757,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 333,
+      "DebugActionIndex": 339,
       "ScannerIndex": 3
     },
     {
@@ -15510,7 +15804,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 334,
+      "DebugActionIndex": 340,
       "ScannerIndex": 3
     },
     {
@@ -15557,7 +15851,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 335,
+      "DebugActionIndex": 341,
       "ScannerIndex": 3
     },
     {
@@ -15604,7 +15898,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 336,
+      "DebugActionIndex": 342,
       "ScannerIndex": 3
     },
     {
@@ -15651,7 +15945,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 337,
+      "DebugActionIndex": 343,
       "ScannerIndex": 3
     },
     {
@@ -15698,7 +15992,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 338,
+      "DebugActionIndex": 344,
       "ScannerIndex": 3
     },
     {
@@ -15745,7 +16039,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 339,
+      "DebugActionIndex": 345,
       "ScannerIndex": 3
     },
     {
@@ -15792,7 +16086,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 340,
+      "DebugActionIndex": 346,
       "ScannerIndex": 3
     },
     {
@@ -15839,7 +16133,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 341,
+      "DebugActionIndex": 347,
       "ScannerIndex": 3
     },
     {
@@ -15886,7 +16180,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 342,
+      "DebugActionIndex": 348,
       "ScannerIndex": 3
     },
     {
@@ -15933,7 +16227,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 343,
+      "DebugActionIndex": 349,
       "ScannerIndex": 3
     },
     {
@@ -15980,7 +16274,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 344,
+      "DebugActionIndex": 350,
       "ScannerIndex": 3
     },
     {
@@ -16027,7 +16321,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 345,
+      "DebugActionIndex": 351,
       "ScannerIndex": 3
     },
     {
@@ -16074,7 +16368,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 346,
+      "DebugActionIndex": 352,
       "ScannerIndex": 3
     },
     {
@@ -16121,7 +16415,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 347,
+      "DebugActionIndex": 353,
       "ScannerIndex": 3
     },
     {
@@ -16168,7 +16462,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 348,
+      "DebugActionIndex": 354,
       "ScannerIndex": 3
     },
     {
@@ -16215,7 +16509,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 349,
+      "DebugActionIndex": 355,
       "ScannerIndex": 3
     },
     {
@@ -16262,7 +16556,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 350,
+      "DebugActionIndex": 356,
       "ScannerIndex": 3
     },
     {
@@ -16309,7 +16603,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 351,
+      "DebugActionIndex": 357,
       "ScannerIndex": 3
     },
     {
@@ -16356,7 +16650,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 352,
+      "DebugActionIndex": 358,
       "ScannerIndex": 3
     },
     {
@@ -16403,7 +16697,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 353,
+      "DebugActionIndex": 359,
       "ScannerIndex": 3
     },
     {
@@ -16450,7 +16744,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 354,
+      "DebugActionIndex": 360,
       "ScannerIndex": 3
     },
     {
@@ -16497,7 +16791,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 355,
+      "DebugActionIndex": 361,
       "ScannerIndex": 3
     },
     {
@@ -16544,7 +16838,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 356,
+      "DebugActionIndex": 362,
       "ScannerIndex": 3
     },
     {
@@ -16591,7 +16885,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 357,
+      "DebugActionIndex": 363,
       "ScannerIndex": 3
     },
     {
@@ -16638,7 +16932,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 358,
+      "DebugActionIndex": 364,
       "ScannerIndex": 3
     },
     {
@@ -16685,7 +16979,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 359,
+      "DebugActionIndex": 365,
       "ScannerIndex": 3
     },
     {
@@ -16732,7 +17026,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 360,
+      "DebugActionIndex": 366,
       "ScannerIndex": 3
     },
     {
@@ -16779,7 +17073,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 361,
+      "DebugActionIndex": 367,
       "ScannerIndex": 3
     },
     {
@@ -16826,7 +17120,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 362,
+      "DebugActionIndex": 368,
       "ScannerIndex": 3
     },
     {
@@ -16873,7 +17167,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 363,
+      "DebugActionIndex": 369,
       "ScannerIndex": 3
     },
     {
@@ -16920,7 +17214,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 364,
+      "DebugActionIndex": 370,
       "ScannerIndex": 3
     },
     {
@@ -16967,7 +17261,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 365,
+      "DebugActionIndex": 371,
       "ScannerIndex": 3
     },
     {
@@ -17014,7 +17308,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 366,
+      "DebugActionIndex": 372,
       "ScannerIndex": 3
     },
     {
@@ -17061,7 +17355,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 367,
+      "DebugActionIndex": 373,
       "ScannerIndex": 3
     },
     {
@@ -17108,7 +17402,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 368,
+      "DebugActionIndex": 374,
       "ScannerIndex": 3
     },
     {
@@ -17155,7 +17449,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 369,
+      "DebugActionIndex": 375,
       "ScannerIndex": 3
     },
     {
@@ -17202,7 +17496,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 370,
+      "DebugActionIndex": 376,
       "ScannerIndex": 3
     },
     {
@@ -17249,7 +17543,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 371,
+      "DebugActionIndex": 377,
       "ScannerIndex": 3
     },
     {
@@ -17296,7 +17590,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 372,
+      "DebugActionIndex": 378,
       "ScannerIndex": 3
     },
     {
@@ -17343,7 +17637,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 373,
+      "DebugActionIndex": 379,
       "ScannerIndex": 3
     },
     {
@@ -17390,7 +17684,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 374,
+      "DebugActionIndex": 380,
       "ScannerIndex": 3
     },
     {
@@ -17437,7 +17731,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 375,
+      "DebugActionIndex": 381,
       "ScannerIndex": 3
     },
     {
@@ -17484,7 +17778,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 376,
+      "DebugActionIndex": 382,
       "ScannerIndex": 3
     },
     {
@@ -17531,7 +17825,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 377,
+      "DebugActionIndex": 383,
       "ScannerIndex": 3
     },
     {
@@ -17578,7 +17872,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 378,
+      "DebugActionIndex": 384,
       "ScannerIndex": 3
     },
     {
@@ -17625,7 +17919,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 379,
+      "DebugActionIndex": 385,
       "ScannerIndex": 3
     },
     {
@@ -17672,7 +17966,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 380,
+      "DebugActionIndex": 386,
       "ScannerIndex": 3
     },
     {
@@ -17719,7 +18013,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 381,
+      "DebugActionIndex": 387,
       "ScannerIndex": 3
     },
     {
@@ -17766,7 +18060,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 382,
+      "DebugActionIndex": 388,
       "ScannerIndex": 3
     },
     {
@@ -17813,7 +18107,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 383,
+      "DebugActionIndex": 389,
       "ScannerIndex": 3
     },
     {
@@ -17860,7 +18154,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 384,
+      "DebugActionIndex": 390,
       "ScannerIndex": 3
     },
     {
@@ -17907,7 +18201,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 385,
+      "DebugActionIndex": 391,
       "ScannerIndex": 3
     },
     {
@@ -17954,7 +18248,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 386,
+      "DebugActionIndex": 392,
       "ScannerIndex": 3
     },
     {
@@ -18001,7 +18295,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 387,
+      "DebugActionIndex": 393,
       "ScannerIndex": 3
     },
     {
@@ -18048,7 +18342,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 388,
+      "DebugActionIndex": 394,
       "ScannerIndex": 3
     },
     {
@@ -18095,7 +18389,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 389,
+      "DebugActionIndex": 395,
       "ScannerIndex": 3
     },
     {
@@ -18142,7 +18436,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 390,
+      "DebugActionIndex": 396,
       "ScannerIndex": 3
     },
     {
@@ -18189,7 +18483,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 391,
+      "DebugActionIndex": 397,
       "ScannerIndex": 3
     },
     {
@@ -18236,7 +18530,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 392,
+      "DebugActionIndex": 398,
       "ScannerIndex": 3
     },
     {
@@ -18283,7 +18577,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 393,
+      "DebugActionIndex": 399,
       "ScannerIndex": 3
     },
     {
@@ -18330,7 +18624,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 394,
+      "DebugActionIndex": 400,
       "ScannerIndex": 3
     },
     {
@@ -18377,7 +18671,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 395,
+      "DebugActionIndex": 401,
       "ScannerIndex": 3
     },
     {
@@ -18424,7 +18718,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 396,
+      "DebugActionIndex": 402,
       "ScannerIndex": 3
     },
     {
@@ -18471,7 +18765,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 397,
+      "DebugActionIndex": 403,
       "ScannerIndex": 3
     },
     {
@@ -18518,7 +18812,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 398,
+      "DebugActionIndex": 404,
       "ScannerIndex": 3
     },
     {
@@ -18565,7 +18859,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 399,
+      "DebugActionIndex": 405,
       "ScannerIndex": 3
     },
     {
@@ -18612,7 +18906,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 400,
+      "DebugActionIndex": 406,
       "ScannerIndex": 3
     },
     {
@@ -18659,7 +18953,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 401,
+      "DebugActionIndex": 407,
       "ScannerIndex": 3
     },
     {
@@ -18706,7 +19000,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 402,
+      "DebugActionIndex": 408,
       "ScannerIndex": 3
     },
     {
@@ -18753,7 +19047,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 403,
+      "DebugActionIndex": 409,
       "ScannerIndex": 3
     },
     {
@@ -18800,7 +19094,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 404,
+      "DebugActionIndex": 410,
       "ScannerIndex": 3
     },
     {
@@ -18847,7 +19141,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 405,
+      "DebugActionIndex": 411,
       "ScannerIndex": 3
     },
     {
@@ -18894,7 +19188,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 406,
+      "DebugActionIndex": 412,
       "ScannerIndex": 3
     },
     {
@@ -18941,7 +19235,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 407,
+      "DebugActionIndex": 413,
       "ScannerIndex": 3
     },
     {
@@ -18988,7 +19282,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 408,
+      "DebugActionIndex": 414,
       "ScannerIndex": 3
     },
     {
@@ -19035,7 +19329,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 409,
+      "DebugActionIndex": 415,
       "ScannerIndex": 3
     },
     {
@@ -19082,7 +19376,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 410,
+      "DebugActionIndex": 416,
       "ScannerIndex": 3
     },
     {
@@ -19129,7 +19423,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 411,
+      "DebugActionIndex": 417,
       "ScannerIndex": 3
     },
     {
@@ -19176,7 +19470,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 412,
+      "DebugActionIndex": 418,
       "ScannerIndex": 3
     },
     {
@@ -19223,7 +19517,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 413,
+      "DebugActionIndex": 419,
       "ScannerIndex": 3
     },
     {
@@ -19270,7 +19564,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 414,
+      "DebugActionIndex": 420,
       "ScannerIndex": 3
     },
     {
@@ -19317,7 +19611,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 415,
+      "DebugActionIndex": 421,
       "ScannerIndex": 3
     },
     {
@@ -19364,7 +19658,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 416,
+      "DebugActionIndex": 422,
       "ScannerIndex": 3
     },
     {
@@ -19411,7 +19705,101 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 417,
+      "DebugActionIndex": 423,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qt8kpam8osha.o",
+      "DisplayName": "Compiling C for GameAssembly (wasm)",
+      "Action": "\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qt8kpam8osha.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc \"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst.Unsafe_CodeGen.c\"",
+      "Inputs": [
+        "D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst.Unsafe_CodeGen.c",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qt8kpam8osha.o"
+      ],
+      "ToBuildDependencies": [
+        6
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 424,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kyfmky1x6i4o.o",
+      "DisplayName": "Compiling C for GameAssembly (wasm)",
+      "Action": "\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kyfmky1x6i4o.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc \"D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst_CodeGen.c\"",
+      "Inputs": [
+        "D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.Burst_CodeGen.c",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kyfmky1x6i4o.o"
+      ],
+      "ToBuildDependencies": [
+        6
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Dev_Programms\\Unity\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 425,
       "ScannerIndex": 3
     },
     {
@@ -19458,7 +19846,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 418,
+      "DebugActionIndex": 426,
       "ScannerIndex": 3
     },
     {
@@ -19505,7 +19893,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 419,
+      "DebugActionIndex": 427,
       "ScannerIndex": 3
     },
     {
@@ -19552,7 +19940,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 420,
+      "DebugActionIndex": 428,
       "ScannerIndex": 3
     },
     {
@@ -19599,7 +19987,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 421,
+      "DebugActionIndex": 429,
       "ScannerIndex": 3
     },
     {
@@ -19646,7 +20034,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 422,
+      "DebugActionIndex": 430,
       "ScannerIndex": 3
     },
     {
@@ -19693,7 +20081,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 423,
+      "DebugActionIndex": 431,
       "ScannerIndex": 3
     },
     {
@@ -19740,7 +20128,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 424,
+      "DebugActionIndex": 432,
       "ScannerIndex": 3
     },
     {
@@ -19787,7 +20175,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 425,
+      "DebugActionIndex": 433,
       "ScannerIndex": 3
     },
     {
@@ -19834,7 +20222,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 426,
+      "DebugActionIndex": 434,
       "ScannerIndex": 3
     },
     {
@@ -19881,7 +20269,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 427,
+      "DebugActionIndex": 435,
       "ScannerIndex": 3
     },
     {
@@ -19928,7 +20316,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 428,
+      "DebugActionIndex": 436,
       "ScannerIndex": 3
     },
     {
@@ -19975,7 +20363,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 429,
+      "DebugActionIndex": 437,
       "ScannerIndex": 3
     },
     {
@@ -20022,7 +20410,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 430,
+      "DebugActionIndex": 438,
       "ScannerIndex": 3
     },
     {
@@ -20069,7 +20457,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 431,
+      "DebugActionIndex": 439,
       "ScannerIndex": 3
     },
     {
@@ -20116,7 +20504,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 432,
+      "DebugActionIndex": 440,
       "ScannerIndex": 3
     },
     {
@@ -20163,7 +20551,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 433,
+      "DebugActionIndex": 441,
       "ScannerIndex": 3
     },
     {
@@ -20210,7 +20598,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 434,
+      "DebugActionIndex": 442,
       "ScannerIndex": 3
     },
     {
@@ -20257,7 +20645,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 435,
+      "DebugActionIndex": 443,
       "ScannerIndex": 3
     },
     {
@@ -20304,7 +20692,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 436,
+      "DebugActionIndex": 444,
       "ScannerIndex": 3
     },
     {
@@ -20351,7 +20739,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 437,
+      "DebugActionIndex": 445,
       "ScannerIndex": 3
     },
     {
@@ -20398,7 +20786,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 438,
+      "DebugActionIndex": 446,
       "ScannerIndex": 3
     },
     {
@@ -20445,7 +20833,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 439,
+      "DebugActionIndex": 447,
       "ScannerIndex": 3
     },
     {
@@ -20492,7 +20880,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 440,
+      "DebugActionIndex": 448,
       "ScannerIndex": 3
     },
     {
@@ -20539,7 +20927,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 441,
+      "DebugActionIndex": 449,
       "ScannerIndex": 3
     },
     {
@@ -20586,7 +20974,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 442,
+      "DebugActionIndex": 450,
       "ScannerIndex": 3
     },
     {
@@ -20633,7 +21021,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 443,
+      "DebugActionIndex": 451,
       "ScannerIndex": 3
     },
     {
@@ -20680,7 +21068,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 444,
+      "DebugActionIndex": 452,
       "ScannerIndex": 3
     },
     {
@@ -20727,7 +21115,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 445,
+      "DebugActionIndex": 453,
       "ScannerIndex": 3
     },
     {
@@ -20774,21 +21162,21 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 446,
+      "DebugActionIndex": 454,
       "ScannerIndex": 3
     },
     {
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6070537824006410562.rsp",
       "DisplayName": "Writing 6070537824006410562.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 137638,
-      "PayloadLength": 28194,
+      "PayloadOffset": 137769,
+      "PayloadLength": 28810,
       "PayloadDebugContentSnippet": "qcL \"Library/Bee/artifacts/Web",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/6070537824006410562.rsp"
       ],
-      "DebugActionIndex": 447
+      "DebugActionIndex": 455
     },
     {
       "Annotation": "Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a",
@@ -20883,6 +21271,7 @@
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6vjkmwi69hfv.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hmdr5tixejde.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4u7vrh86mrv7.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/v44bokrspdf1.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bydwxpva253s.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r9l91bbblbs7.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n8rcug7uch8t.o",
@@ -20901,6 +21290,7 @@
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/abbnwalyedkq.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vqebckzvh1v9.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g6hzrtdtkp7s.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/he2fc9troro8.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/61slfz8tljy3.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rhw9u8mro79m.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cxzxai1orvl6.o",
@@ -20915,6 +21305,10 @@
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/prsd6a5em262.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r6plenwmyn2r.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cmt9twak1beb.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ognau4op7ci4.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i24xj9dtouv2.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rjlljz6hhuvb.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sr513englwcr.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hsia443mqb5c.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wssib790qh4d.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/652i1huwwgcv.o",
@@ -21011,6 +21405,8 @@
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z00juz4ceb86.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/54splc3en3n5.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ctbb6xjig3bn.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qt8kpam8osha.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kyfmky1x6i4o.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gtn3jgmwunvu.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l4xpfv5tqtn5.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6ztaxi9ip7c2.o",
@@ -21551,7 +21947,15 @@
         444,
         445,
         446,
-        447
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455
       ],
       "OverwriteOutputs": false,
       "FrontendResponseFiles": [
@@ -21584,7 +21988,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 448
+      "DebugActionIndex": 456
     },
     {
       "Annotation": "CopyFiles D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a",
@@ -21597,13 +22001,13 @@
         "D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a"
       ],
       "ToBuildDependencies": [
-        448
+        456
       ],
       "ToUseDependencies": [
-        450,
-        451
+        458,
+        459
       ],
-      "DebugActionIndex": 449
+      "DebugActionIndex": 457
     },
     {
       "Annotation": "CopyFiles D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Metadata/global-metadata.dat",
@@ -21617,12 +22021,12 @@
       ],
       "ToBuildDependencies": [
         6,
-        451
+        459
       ],
       "ToUseDependencies": [
-        451
+        459
       ],
-      "DebugActionIndex": 450
+      "DebugActionIndex": 458
     },
     {
       "Annotation": "CopyFiles D:/UnityProjects/virtuellerHofladen/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/mscorlib.dll-resources.dat",
@@ -21637,20 +22041,20 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 451
+      "DebugActionIndex": 459
     },
     {
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8995565923215908413.rsp",
       "DisplayName": "Writing 8995565923215908413.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 165921,
+      "PayloadOffset": 166668,
       "PayloadLength": 13724,
       "PayloadDebugContentSnippet": "-s \"EXPORTED_RUNTIME_METHODS=[",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/8995565923215908413.rsp"
       ],
-      "DebugActionIndex": 452
+      "DebugActionIndex": 460
     },
     {
       "Annotation": "Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)",
@@ -21758,8 +22162,8 @@
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "ToBuildDependencies": [
-        449,
-        452
+        457,
+        460
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/rsp/8995565923215908413.rsp"
@@ -21791,20 +22195,20 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 453
+      "DebugActionIndex": 461
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info",
       "DisplayName": "Writing build.framework.js_mumr.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 179741,
+      "PayloadOffset": 180488,
       "PayloadLength": 620,
       "PayloadDebugContentSnippet": "{\"WebGLPlayerBuildProgram.Fram",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info"
       ],
-      "DebugActionIndex": 454
+      "DebugActionIndex": 462
     },
     {
       "Annotation": "FrameworkAssembler Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
@@ -21822,13 +22226,13 @@
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "ToBuildDependencies": [
-        453,
-        454
+        461,
+        462
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 455
+      "DebugActionIndex": 463
     },
     {
       "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
@@ -21842,25 +22246,25 @@
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
       ],
       "ToBuildDependencies": [
-        455
+        463
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 456
+      "DebugActionIndex": 464
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Builds.framework.js.gz_wvwq.info",
       "DisplayName": "Writing Builds.framework.js.gz_wvwq.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 180461,
+      "PayloadOffset": 181208,
       "PayloadLength": 454,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Builds.framework.js.gz_wvwq.info"
       ],
-      "DebugActionIndex": 457
+      "DebugActionIndex": 465
     },
     {
       "Annotation": "GzipMarker Builds/Build/Builds.framework.js.gz",
@@ -21878,13 +22282,13 @@
         "Builds/Build/Builds.framework.js.gz"
       ],
       "ToBuildDependencies": [
-        456,
-        457
+        464,
+        465
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 458
+      "DebugActionIndex": 466
     },
     {
       "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
@@ -21898,25 +22302,25 @@
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
       ],
       "ToBuildDependencies": [
-        453
+        461
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 459
+      "DebugActionIndex": 467
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Builds.wasm.gz_hseg.info",
       "DisplayName": "Writing Builds.wasm.gz_hseg.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 181007,
+      "PayloadOffset": 181754,
       "PayloadLength": 438,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Builds.wasm.gz_hseg.info"
       ],
-      "DebugActionIndex": 460
+      "DebugActionIndex": 468
     },
     {
       "Annotation": "GzipMarker Builds/Build/Builds.wasm.gz",
@@ -21934,13 +22338,13 @@
         "Builds/Build/Builds.wasm.gz"
       ],
       "ToBuildDependencies": [
-        459,
-        460
+        467,
+        468
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 461
+      "DebugActionIndex": 469
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -21955,7 +22359,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 462
+      "DebugActionIndex": 470
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -21970,20 +22374,20 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 463
+      "DebugActionIndex": 471
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 181533,
+      "PayloadOffset": 182280,
       "PayloadLength": 1844,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
-      "DebugActionIndex": 464
+      "DebugActionIndex": 472
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -22009,12 +22413,12 @@
       "ToBuildDependencies": [
         2,
         6,
-        464
+        472
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 465
+      "DebugActionIndex": 473
     },
     {
       "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
@@ -22028,25 +22432,25 @@
         "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
       ],
       "ToBuildDependencies": [
-        465
+        473
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 466
+      "DebugActionIndex": 474
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Builds.data.gz_ffhl.info",
       "DisplayName": "Writing Builds.data.gz_ffhl.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 183469,
+      "PayloadOffset": 184216,
       "PayloadLength": 415,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Builds.data.gz_ffhl.info"
       ],
-      "DebugActionIndex": 467
+      "DebugActionIndex": 475
     },
     {
       "Annotation": "GzipMarker Builds/Build/Builds.data.gz",
@@ -22064,13 +22468,13 @@
         "Builds/Build/Builds.data.gz"
       ],
       "ToBuildDependencies": [
-        466,
-        467
+        474,
+        475
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 468
+      "DebugActionIndex": 476
     },
     {
       "Annotation": "PreprocessJS Builds/Build/Builds.loader.js",
@@ -22084,7 +22488,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 469
+      "DebugActionIndex": 477
     },
     {
       "Annotation": "PreprocessJS Builds/index.html",
@@ -22098,7 +22502,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 470
+      "DebugActionIndex": 478
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/favicon.ico",
@@ -22110,7 +22514,7 @@
       "Outputs": [
         "Builds/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 471
+      "DebugActionIndex": 479
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/fullscreen-button.png",
@@ -22122,7 +22526,7 @@
       "Outputs": [
         "Builds/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 472
+      "DebugActionIndex": 480
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/MemoryProfiler.png",
@@ -22134,7 +22538,7 @@
       "Outputs": [
         "Builds/TemplateData/MemoryProfiler.png"
       ],
-      "DebugActionIndex": 473
+      "DebugActionIndex": 481
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/progress-bar-empty-dark.png",
@@ -22146,7 +22550,7 @@
       "Outputs": [
         "Builds/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 474
+      "DebugActionIndex": 482
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/progress-bar-empty-light.png",
@@ -22158,7 +22562,7 @@
       "Outputs": [
         "Builds/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 475
+      "DebugActionIndex": 483
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/progress-bar-full-dark.png",
@@ -22170,7 +22574,7 @@
       "Outputs": [
         "Builds/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 476
+      "DebugActionIndex": 484
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/progress-bar-full-light.png",
@@ -22182,7 +22586,7 @@
       "Outputs": [
         "Builds/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 477
+      "DebugActionIndex": 485
     },
     {
       "Annotation": "PreprocessJS Builds/TemplateData/style.css",
@@ -22196,7 +22600,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 478
+      "DebugActionIndex": 486
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/unity-logo-dark.png",
@@ -22208,7 +22612,7 @@
       "Outputs": [
         "Builds/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 479
+      "DebugActionIndex": 487
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/unity-logo-light.png",
@@ -22220,7 +22624,7 @@
       "Outputs": [
         "Builds/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 480
+      "DebugActionIndex": 488
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/webgl-logo.png",
@@ -22232,7 +22636,7 @@
       "Outputs": [
         "Builds/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 481
+      "DebugActionIndex": 489
     },
     {
       "Annotation": "CopyFiles Builds/TemplateData/webmemd-icon.png",
@@ -22244,7 +22648,7 @@
       "Outputs": [
         "Builds/TemplateData/webmemd-icon.png"
       ],
-      "DebugActionIndex": 482
+      "DebugActionIndex": 490
     },
     {
       "Annotation": "Player",
@@ -22253,29 +22657,29 @@
       "Outputs": [],
       "ToBuildDependencies": [
         4,
-        449,
-        458,
-        461,
-        462,
-        463,
-        468,
+        457,
+        466,
         469,
         470,
         471,
-        472,
-        473,
-        474,
-        475,
         476,
         477,
         478,
         479,
         480,
         481,
-        482
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 483
+      "DebugActionIndex": 491
     }
   ],
   "FileSignatures": [
@@ -22645,7 +23049,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 483
+          "Player": 491
         }
 ,  "DefaultNodes": [
     0

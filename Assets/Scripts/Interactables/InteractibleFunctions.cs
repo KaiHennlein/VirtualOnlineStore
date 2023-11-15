@@ -22,4 +22,9 @@ public static class InteractibleFunctions
 
         return productInformation;
     }
+
+    public static void ToggleProductDetailsUI(Product product, Texture2D productImage)
+    {
+        UIController.instance.ToggleProductdetails(product, productImage);
+    }
 }

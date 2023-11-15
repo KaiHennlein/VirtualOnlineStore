@@ -300,6 +300,7 @@
 -analyzer:"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Dev_Programms/Unity/Editor/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Input/PlayerInput.cs"
+"Assets/Scripts/Interactables/BaseProductInteractible.cs"
 "Assets/Scripts/Interactables/Interactable.cs"
 "Assets/Scripts/Interactables/InteractibleFunctions.cs"
 "Assets/Scripts/Interactables/ProductCategories/BottledInteractable.cs"
@@ -311,6 +312,7 @@
 "Assets/Scripts/MaterialChanger/CreateMaterailFromTexture2D.cs"
 "Assets/Scripts/MaterialChanger/MaterialChanger.cs"
 "Assets/Scripts/Models/Product.cs"
+"Assets/Scripts/Models/ShoppingCartItem.cs"
 "Assets/Scripts/Player/InputManager.cs"
 "Assets/Scripts/Player/PlayerInteract.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
@@ -320,6 +322,9 @@
 "Assets/Scripts/ResourceLoaders/ImageLoader.cs"
 "Assets/Scripts/ResourceLoaders/JSONLoader.cs"
 "Assets/Scripts/ResourceLoaders/ProductList.cs"
+"Assets/Scripts/ResourceLoaders/ShoppingCartList.cs"
+"Assets/Scripts/UI/UIController.cs"
+"Assets/Scripts/VirtualShoppingCart/ChangeShoppingCartList.cs"
 -langversion:9.0
 
 /deterministic

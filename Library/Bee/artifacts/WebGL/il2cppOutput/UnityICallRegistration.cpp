@@ -2,6 +2,38 @@ void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : Unity.Burst.LowLevel.BurstCompilerService
 
+		//System.Boolean Unity.Burst.LowLevel.BurstCompilerService::LoadBurstLibrary(System.String)
+		void Register_Unity_Burst_LowLevel_BurstCompilerService_LoadBurstLibrary();
+		Register_Unity_Burst_LowLevel_BurstCompilerService_LoadBurstLibrary();
+
+		//System.Int32 Unity.Burst.LowLevel.BurstCompilerService::CompileAsyncDelegateMethod(System.Object,System.String)
+		void Register_Unity_Burst_LowLevel_BurstCompilerService_CompileAsyncDelegateMethod();
+		Register_Unity_Burst_LowLevel_BurstCompilerService_CompileAsyncDelegateMethod();
+
+		//System.String Unity.Burst.LowLevel.BurstCompilerService::GetDisassembly(System.Reflection.MethodInfo,System.String)
+		void Register_Unity_Burst_LowLevel_BurstCompilerService_GetDisassembly();
+		Register_Unity_Burst_LowLevel_BurstCompilerService_GetDisassembly();
+
+		//System.UInt32 Unity.Burst.LowLevel.BurstCompilerService::GetCurrentExecutionMode()
+		void Register_Unity_Burst_LowLevel_BurstCompilerService_GetCurrentExecutionMode();
+		Register_Unity_Burst_LowLevel_BurstCompilerService_GetCurrentExecutionMode();
+
+		//System.Void Unity.Burst.LowLevel.BurstCompilerService::Log(System.Void*,Unity.Burst.LowLevel.BurstCompilerService/BurstLogType,System.Byte*,System.Byte*,System.Int32)
+		void Register_Unity_Burst_LowLevel_BurstCompilerService_Log();
+		Register_Unity_Burst_LowLevel_BurstCompilerService_Log();
+
+		//System.Void Unity.Burst.LowLevel.BurstCompilerService::RuntimeLog(System.Void*,Unity.Burst.LowLevel.BurstCompilerService/BurstLogType,System.Byte*,System.Byte*,System.Int32)
+		void Register_Unity_Burst_LowLevel_BurstCompilerService_RuntimeLog();
+		Register_Unity_Burst_LowLevel_BurstCompilerService_RuntimeLog();
+
+		//System.Void Unity.Burst.LowLevel.BurstCompilerService::SetCurrentExecutionMode(System.UInt32)
+		void Register_Unity_Burst_LowLevel_BurstCompilerService_SetCurrentExecutionMode();
+		Register_Unity_Burst_LowLevel_BurstCompilerService_SetCurrentExecutionMode();
+
+		//System.Void* Unity.Burst.LowLevel.BurstCompilerService::GetAsyncCompiledAsyncDelegateMethod(System.Int32)
+		void Register_Unity_Burst_LowLevel_BurstCompilerService_GetAsyncCompiledAsyncDelegateMethod();
+		Register_Unity_Burst_LowLevel_BurstCompilerService_GetAsyncCompiledAsyncDelegateMethod();
+
 		//System.Void* Unity.Burst.LowLevel.BurstCompilerService::GetOrCreateSharedMemory(UnityEngine.Hash128&,System.UInt32,System.UInt32)
 		void Register_Unity_Burst_LowLevel_BurstCompilerService_GetOrCreateSharedMemory();
 		Register_Unity_Burst_LowLevel_BurstCompilerService_GetOrCreateSharedMemory();
@@ -13,6 +45,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeUtility::IsBlittable(System.Type)
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_IsBlittable();
 		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_IsBlittable();
+
+		//System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::GetScriptingTypeFlags(System.Type)
+		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_GetScriptingTypeFlags();
+		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_GetScriptingTypeFlags();
 
 		//System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::LeakErase(System.IntPtr,Unity.Collections.LeakCategory)
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_LeakErase();
@@ -93,6 +129,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void Unity.Jobs.LowLevel.Unsafe.JobsUtility::ScheduleParallelFor_Injected(Unity.Jobs.LowLevel.Unsafe.JobsUtility/JobScheduleParameters&,System.Int32,System.Int32,Unity.Jobs.JobHandle&)
 		void Register_Unity_Jobs_LowLevel_Unsafe_JobsUtility_ScheduleParallelFor_Injected();
 		Register_Unity_Jobs_LowLevel_Unsafe_JobsUtility_ScheduleParallelFor_Injected();
+
+		//System.Void Unity.Jobs.LowLevel.Unsafe.JobsUtility::set_JobCompilerEnabled(System.Boolean)
+		void Register_Unity_Jobs_LowLevel_Unsafe_JobsUtility_set_JobCompilerEnabled();
+		Register_Unity_Jobs_LowLevel_Unsafe_JobsUtility_set_JobCompilerEnabled();
 
 	//End Registrations for type : Unity.Jobs.LowLevel.Unsafe.JobsUtility
 
@@ -1213,6 +1253,10 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Component UnityEngine.GameObject::TryGetComponentInternal(System.Type)
 		void Register_UnityEngine_GameObject_TryGetComponentInternal();
 		Register_UnityEngine_GameObject_TryGetComponentInternal();
+
+		//UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
+		void Register_UnityEngine_GameObject_Find();
+		Register_UnityEngine_GameObject_Find();
 
 		//UnityEngine.Transform UnityEngine.GameObject::get_transform()
 		void Register_UnityEngine_GameObject_get_transform();

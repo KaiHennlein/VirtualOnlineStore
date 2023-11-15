@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - PlayerLook
     - PlayerMotor
     - PlayerUI
+    - UIController
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -61,6 +62,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
@@ -86,9 +88,12 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.VerticalLayoutGroup
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.RectMask2D
   serializedClasses:
     Assembly-CSharp:
     - Product
@@ -108,6 +113,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_GlyphAdjustmentRecord
     - TMPro.TMP_GlyphPairAdjustmentRecord
     - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_InputField/OnChangeEvent
+    - TMPro.TMP_InputField/SelectionEvent
+    - TMPro.TMP_InputField/SubmitEvent
+    - TMPro.TMP_InputField/TextSelectionEvent
+    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
     - TMPro.TMP_Sprite
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
@@ -137,6 +147,12 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: AddToCart
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: CloseUI
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: OnScrollbarClicked
@@ -263,6 +279,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5784}
     - Class: 114
+      Script: {instanceID: 5982}
+    - Class: 114
       Script: {instanceID: 6006}
     - Class: 114
       Script: {instanceID: 6272}
@@ -270,6 +288,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6424}
     - Class: 114
       Script: {instanceID: 7154}
+    - Class: 114
+      Script: {instanceID: 7292}
     - Class: 114
       Script: {instanceID: 7316}
     - Class: 114
@@ -340,6 +360,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11570}
     - Class: 114
       Script: {instanceID: 11998}
+    - Class: 114
+      Script: {instanceID: 29344}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1973,6 +1995,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIController
+  - hash:
+      serializedVersion: 2
+      Hash: 33976f713747fa44f36f69e3bc95de5c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BaseProductInteractible
   platform: 20
   scenePathNames:
   - Assets/Scenes/Store.unity

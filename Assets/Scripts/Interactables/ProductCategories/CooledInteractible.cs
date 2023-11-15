@@ -8,6 +8,7 @@ public class CooledInteractible : Interactable
     private WebGLPlugin WebGLPlugin;
     [SerializeField] private string category = "Cooled";
     [SerializeField] private Product productInformation;
+    Texture2D texture2D;
 
     // Start is called before the first frame update
     void Start()
@@ -29,16 +30,15 @@ public class CooledInteractible : Interactable
 
     protected override void Interact()
     {
-        Debug.Log("Interacted with " + gameObject.name);
+        //Debug.Log("Interacted with " + gameObject.name);
+        InteractibleFunctions.ToggleProductDetailsUI(productInformation, texture2D);
         WebGLPlugin.IncreaseCounterFromCSharp();
-        //Must be removed before publishing
-        //Application.ExternalEval("IncreaseCounter();");
     }
 
     private void MaterialChanger()
     {
         List<Texture2D> list = ImageList.images;
-        Texture2D texture2D = ImageList.images.First<Texture2D>();
+        texture2D = ImageList.images.First<Texture2D>();
 
         if (list != null && list.Count > 0)
         {

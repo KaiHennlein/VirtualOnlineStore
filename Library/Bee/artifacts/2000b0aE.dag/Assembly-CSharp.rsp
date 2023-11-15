@@ -363,6 +363,7 @@
 "Assets/Scripts/MaterialChanger/CreateMaterailFromTexture2D.cs"
 "Assets/Scripts/MaterialChanger/MaterialChanger.cs"
 "Assets/Scripts/Models/Product.cs"
+"Assets/Scripts/Models/ShoppingCartItem.cs"
 "Assets/Scripts/Player/InputManager.cs"
 "Assets/Scripts/Player/PlayerInteract.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
@@ -372,6 +373,9 @@
 "Assets/Scripts/ResourceLoaders/ImageLoader.cs"
 "Assets/Scripts/ResourceLoaders/JSONLoader.cs"
 "Assets/Scripts/ResourceLoaders/ProductList.cs"
+"Assets/Scripts/ResourceLoaders/ShoppingCartList.cs"
+"Assets/Scripts/UI/ListController.cs"
+"Assets/Scripts/UI/UIController.cs"
 -langversion:9.0
 
 /deterministic
