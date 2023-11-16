@@ -1,11 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.InteropServices;
-using UnityEngine.UI;
+using Unity.VisualScripting;
 
-public class WebGLPlugin : MonoBehaviour
+public class WebGLPlugin : MonoBehaviour 
 {
+    public static WebGLPlugin Instance;
     // Dieser Counter wird in Unity verwaltet
     private int counter = 0;
 
@@ -17,6 +16,14 @@ public class WebGLPlugin : MonoBehaviour
         Debug.Log(counter);
     }
 
+    public void SendCartDataToHTML(string ProductName, string ProductID, int Amount)
+    {
+        SendCartData(ProductName, ProductID, Amount);
+    }
+
     [DllImport("__Internal")]
     private static extern void SendCounterData(int counterData);
+    [DllImport("__Internal")]
+    private static extern void SendCartData(string ProductName, string ProductID, int Amount);
+
 }

@@ -140,10 +140,16 @@ extern void UIController_ToggleProductdetails_m3B40C0F2A52C82E7CA2F3ED1073B259CB
 extern void UIController_CloseUI_mDD31EC1B5BB7A1244396D5D1929DA36C4D21FF07 (void);
 extern void UIController_AddToCart_m8CC6020B23110906C849798527D1CAE774EF2D07 (void);
 extern void UIController__ctor_mFF218DBC8CCEFE36AAC295D2376501658CD8B7A2 (void);
+extern void UIControllerShoppingCart_Start_mF23E14A58A63CF76A2BD116B2D63AAA6DDAA63AE (void);
+extern void UIControllerShoppingCart_Update_m6541C493DBAE84EFCF070E74FD9A9288BDBB731B (void);
+extern void UIControllerShoppingCart_ToggleShoppingCart_m920FA96F12DD601D38A1100A6FD9643EB38DA31E (void);
+extern void UIControllerShoppingCart_CloseUI_mC834677CF6985E40DE1CB27B7901D73E33791891 (void);
+extern void UIControllerShoppingCart_SendCartDataToHTML_mA89AFFCF38155BBB5B8ED719E3775DB8418DD668 (void);
+extern void UIControllerShoppingCart__ctor_mB857B2D492BC030A2EDF83394BE0B9E6A0EE23EB (void);
 extern void ChangeShoppingCartList_AddItemToShoppingCart_m8ABCEA604B4DB2D15F89B405F7586B82D69EA3BF (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[144] = 
+static Il2CppMethodPointer s_methodPointers[150] = 
 {
 	PlayerInput_get_asset_mB150BFBAFA2BC91504C640B0065EF84C41EEF998,
 	PlayerInput__ctor_m24FD924FB39A9A023CDEA8F6916EEC47B471B3A8,
@@ -286,6 +292,12 @@ static Il2CppMethodPointer s_methodPointers[144] =
 	UIController_CloseUI_mDD31EC1B5BB7A1244396D5D1929DA36C4D21FF07,
 	UIController_AddToCart_m8CC6020B23110906C849798527D1CAE774EF2D07,
 	UIController__ctor_mFF218DBC8CCEFE36AAC295D2376501658CD8B7A2,
+	UIControllerShoppingCart_Start_mF23E14A58A63CF76A2BD116B2D63AAA6DDAA63AE,
+	UIControllerShoppingCart_Update_m6541C493DBAE84EFCF070E74FD9A9288BDBB731B,
+	UIControllerShoppingCart_ToggleShoppingCart_m920FA96F12DD601D38A1100A6FD9643EB38DA31E,
+	UIControllerShoppingCart_CloseUI_mC834677CF6985E40DE1CB27B7901D73E33791891,
+	UIControllerShoppingCart_SendCartDataToHTML_mA89AFFCF38155BBB5B8ED719E3775DB8418DD668,
+	UIControllerShoppingCart__ctor_mB857B2D492BC030A2EDF83394BE0B9E6A0EE23EB,
 	ChangeShoppingCartList_AddItemToShoppingCart_m8ABCEA604B4DB2D15F89B405F7586B82D69EA3BF,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
@@ -355,7 +367,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[31] =
 	{ 0x06000032, UIActions_RemoveCallbacks_m725515876367B0D809D0C2409D3EB9D263E3F6DD_AdjustorThunk },
 	{ 0x06000033, UIActions_SetCallbacks_mD6FB3CEB6A8431680370281AF3B85A39A01F15F3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[144] = 
+static const int32_t s_InvokerIndices[150] = 
 {
 	6420,
 	6542,
@@ -498,6 +510,12 @@ static const int32_t s_InvokerIndices[144] =
 	6542,
 	6542,
 	6542,
+	6542,
+	6542,
+	6542,
+	6542,
+	6542,
+	6542,
 	9009,
 	9931,
 	6542,
@@ -506,7 +524,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	144,
+	150,
 	s_methodPointers,
 	31,
 	s_adjustorThunks,

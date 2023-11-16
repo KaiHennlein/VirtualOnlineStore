@@ -4,3 +4,11 @@ mergeInto(LibraryManager.library, {
         receiveDataFromUnity(counter);
     }
 });
+mergeInto(LibraryManager.library, {
+    SendCartData: function (ProductName, ProductID, Amount){
+		console.log(ProductName, ProductID, Amount);
+		receiveCartDataFromUnity(ProductName, ProductID, Amount)
+	}
+});
+
+	

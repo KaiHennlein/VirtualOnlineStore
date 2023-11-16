@@ -42,6 +42,11 @@ struct U3CModuleU3E_tF062866229C4952B8051AD32AB6E9D931142CC95
 struct U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121  : public RuntimeObject
 {
 };
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
 struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC4249931E82CEBAEC1968B680E9E9A0DF4A946C6  : public RuntimeObject
 {
 };
@@ -169,10 +174,18 @@ struct U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442
 	__StaticArrayInitTypeSizeU3D44_t19EC4309691F2CFB64D2C2A1EB2796CEF68B4974 ___B07B604DC4C4BA70E18603A7F8E167ADA2E0EA69CD4021B926CD58064C59610B;
 	__StaticArrayInitTypeSizeU3D17_t3FB197D6D2E77B41CE8920F0E193A14CD4971D7D ___BA8A879A31674672695AF5B455FEF089F7288BF766768607062C99FB8C29A53B;
 };
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
 	String_t* ___TrueString;
 	String_t* ___FalseString;
+};
+struct WebGLPlugin_t044746291476DB91C013347EC4613320E47BBA71_StaticFields
+{
+	WebGLPlugin_t044746291476DB91C013347EC4613320E47BBA71* ___Instance;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -214,10 +227,12 @@ struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArr
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebGLPlugin_SendCounterData_mFDF0FE796CAE1782458D50B197E592447ACBC5B1 (int32_t ___0_counterData, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebGLPlugin_SendCartData_m4CE4B54ECEEC2AC9BC66E13B95EC5A89CC3C779F (String_t* ___0_ProductName, String_t* ___1_ProductID, int32_t ___2_Amount, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C void DEFAULT_CALL SendCounterData(int32_t);
+IL2CPP_EXTERN_C void DEFAULT_CALL SendCartData(char*, char*, int32_t);
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -253,11 +268,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebGLPlugin_IncreaseCounterFromCSharp_mC
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebGLPlugin_SendCartDataToHTML_m94FF31D6AECCF58EE5F06FFBE53A4A77AEE5FBDC (WebGLPlugin_t044746291476DB91C013347EC4613320E47BBA71* __this, String_t* ___0_ProductName, String_t* ___1_ProductID, int32_t ___2_Amount, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_ProductName;
+		String_t* L_1 = ___1_ProductID;
+		int32_t L_2 = ___2_Amount;
+		WebGLPlugin_SendCartData_m4CE4B54ECEEC2AC9BC66E13B95EC5A89CC3C779F(L_0, L_1, L_2, NULL);
+		return;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebGLPlugin_SendCounterData_mFDF0FE796CAE1782458D50B197E592447ACBC5B1 (int32_t ___0_counterData, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
 
 	reinterpret_cast<PInvokeFunc>(SendCounterData)(___0_counterData);
+
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebGLPlugin_SendCartData_m4CE4B54ECEEC2AC9BC66E13B95EC5A89CC3C779F (String_t* ___0_ProductName, String_t* ___1_ProductID, int32_t ___2_Amount, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, int32_t);
+
+	char* ____0_ProductName_marshaled = NULL;
+	____0_ProductName_marshaled = il2cpp_codegen_marshal_string(___0_ProductName);
+
+	char* ____1_ProductID_marshaled = NULL;
+	____1_ProductID_marshaled = il2cpp_codegen_marshal_string(___1_ProductID);
+
+	reinterpret_cast<PInvokeFunc>(SendCartData)(____0_ProductName_marshaled, ____1_ProductID_marshaled, ___2_Amount);
+
+	il2cpp_codegen_marshal_free(____0_ProductName_marshaled);
+	____0_ProductName_marshaled = NULL;
+
+	il2cpp_codegen_marshal_free(____1_ProductID_marshaled);
+	____1_ProductID_marshaled = NULL;
 
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebGLPlugin__ctor_mEEAA5A6850B0C26D9420105255B5A6C2838B9340 (WebGLPlugin_t044746291476DB91C013347EC4613320E47BBA71* __this, const RuntimeMethod* method) 
