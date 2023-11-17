@@ -11,14 +11,12 @@ using static Unity.Burst.Intrinsics.X86.Avx;
 public class UIController : MonoBehaviour
 {
     public static UIController instance;
-    private GameObject Productdetails;
+    public GameObject Productdetails;
     private Product product;
 
     // Start is called before the first frame update
     void Start()
     {
-        Productdetails = GameObject.Find("ProductDetails");
-
         if (instance == null)
         {
             instance = this;
@@ -82,6 +80,7 @@ public class UIController : MonoBehaviour
             {
                 ShoppingCartItem shoppingCartItem = ShoppingCartList.TransformProductToShoppingCartItem(product, amount);
                 ShoppingCartList.shoppingCartItems.Add(shoppingCartItem);
+                ScrollViewManager.instance.UpdateShoppingCartList();
             }
         }
         catch
