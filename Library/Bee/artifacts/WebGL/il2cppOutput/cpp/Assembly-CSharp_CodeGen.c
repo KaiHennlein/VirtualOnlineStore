@@ -156,10 +156,8 @@ extern void ShoppingCartList_TransformProductToShoppingCartItem_m14AAEFB149C290B
 extern void ShoppingCartList__cctor_m382C23E8CE9F3842ECAEF7F0CB19E6720700EE6F (void);
 extern void ScrollViewManager_Start_m01648310D600B803AC7DA32FDF745EE47E69F77A (void);
 extern void ScrollViewManager_Update_m7242B149DE862A565CF30DECCD3D646132737DDE (void);
-extern void ScrollViewManager_Add_m973551863F62FC567C90950BA00DFAACE96D0C11 (void);
 extern void ScrollViewManager_AddItemWithData_mCE82EFA62838A811BB0E40FA9CEA1B795EA96A6B (void);
 extern void ScrollViewManager_UpdateShoppingCartList_m5621F04E5F90C6034A4B8823A6C3D18BA76D6596 (void);
-extern void ScrollViewManager_ClearAllObjectsFromScrollView_mA56910EE8F3A123C2FB22B50BD52680150AF4CA5 (void);
 extern void ScrollViewManager__ctor_m05C843A8E9DFD17DE42203C31AB1596179DE04CD (void);
 extern void UIController_Start_mDB390A5128712606F938A56F294FBDE7DFE649D4 (void);
 extern void UIController_Update_m8F538932F53B831D5B82191902ADADACD32B108B (void);
@@ -176,7 +174,7 @@ extern void UIControllerShoppingCart__ctor_mB857B2D492BC030A2EDF83394BE0B9E6A0EE
 extern void ChangeShoppingCartList_AddItemToShoppingCart_m8ABCEA604B4DB2D15F89B405F7586B82D69EA3BF (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[177] = 
+static Il2CppMethodPointer s_methodPointers[175] = 
 {
 	PlayerInput_get_asset_mB150BFBAFA2BC91504C640B0065EF84C41EEF998,
 	PlayerInput__ctor_m24FD924FB39A9A023CDEA8F6916EEC47B471B3A8,
@@ -335,10 +333,8 @@ static Il2CppMethodPointer s_methodPointers[177] =
 	ShoppingCartList__cctor_m382C23E8CE9F3842ECAEF7F0CB19E6720700EE6F,
 	ScrollViewManager_Start_m01648310D600B803AC7DA32FDF745EE47E69F77A,
 	ScrollViewManager_Update_m7242B149DE862A565CF30DECCD3D646132737DDE,
-	ScrollViewManager_Add_m973551863F62FC567C90950BA00DFAACE96D0C11,
 	ScrollViewManager_AddItemWithData_mCE82EFA62838A811BB0E40FA9CEA1B795EA96A6B,
 	ScrollViewManager_UpdateShoppingCartList_m5621F04E5F90C6034A4B8823A6C3D18BA76D6596,
-	ScrollViewManager_ClearAllObjectsFromScrollView_mA56910EE8F3A123C2FB22B50BD52680150AF4CA5,
 	ScrollViewManager__ctor_m05C843A8E9DFD17DE42203C31AB1596179DE04CD,
 	UIController_Start_mDB390A5128712606F938A56F294FBDE7DFE649D4,
 	UIController_Update_m8F538932F53B831D5B82191902ADADACD32B108B,
@@ -421,7 +417,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[31] =
 	{ 0x06000032, UIActions_RemoveCallbacks_m725515876367B0D809D0C2409D3EB9D263E3F6DD_AdjustorThunk },
 	{ 0x06000033, UIActions_SetCallbacks_mD6FB3CEB6A8431680370281AF3B85A39A01F15F3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[177] = 
+static const int32_t s_InvokerIndices[175] = 
 {
 	6420,
 	6542,
@@ -580,9 +576,7 @@ static const int32_t s_InvokerIndices[177] =
 	9920,
 	6542,
 	6542,
-	6542,
 	5170,
-	6542,
 	6542,
 	6542,
 	6542,
@@ -605,7 +599,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	177,
+	175,
 	s_methodPointers,
 	31,
 	s_adjustorThunks,

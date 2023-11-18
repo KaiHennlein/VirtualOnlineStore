@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -31,12 +32,7 @@ public class ScrollViewManager : MonoBehaviour
         
     }
 
-    private void Add()
-    {
-        GameObject template = (GameObject)Instantiate(ShoppingCartItemTemplate);
-        template.transform.SetParent(ShoppingCartListView.transform);
-    }
-
+    //Add items to the shoppingcart
     private void AddItemWithData(ShoppingCartItem item)
     {
         GameObject template = (GameObject)Instantiate(ShoppingCartItemTemplate);
@@ -52,9 +48,15 @@ public class ScrollViewManager : MonoBehaviour
         template.transform.SetParent(ShoppingCartListView.transform);
     }
 
+    //updating scrollview contende be clearing and repopulating 
     public void UpdateShoppingCartList()
     {
-        //ClearAllObjectsFromScrollView();
+        Transform transform = ShoppingCartListView.transform;
+        var children = transform.Cast<Transform>().ToArray();
+        foreach ( var child in children)
+        {
+            Object.DestroyImmediate(child.gameObject);
+        }
 
         if (ShoppingCartList.shoppingCartItems.Count > 0)
         {
@@ -63,11 +65,5 @@ public class ScrollViewManager : MonoBehaviour
                 AddItemWithData(Item);
             }
         }
-    }
-
-    public void ClearAllObjectsFromScrollView()
-    {
-        //ScrollRect scrollRect = ShoppingCartListView.GetComponent<ScrollRect>();
-        //ebug.Log("");
     }
 }

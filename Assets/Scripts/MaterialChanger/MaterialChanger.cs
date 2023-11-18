@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class MaterialChanger : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Preperation for final Product
     void Start()
     {
         List<Texture2D> list = ImageList.images;

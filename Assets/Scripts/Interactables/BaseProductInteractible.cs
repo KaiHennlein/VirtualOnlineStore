@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class BaseProductInteractible : Interactable
 {
+    //Isnt used at the moment but prepration for the final product
+
     private WebGLPlugin WebGLPlugin;
-    [SerializeField] private string category = "Bottle";
+    [SerializeField] private string category;
     [SerializeField] private Product productInformation;
     private Texture2D texture2D = ImageList.images.First<Texture2D>();
 
