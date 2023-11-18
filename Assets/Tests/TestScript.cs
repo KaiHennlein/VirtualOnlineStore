@@ -11,6 +11,7 @@ public class TestScript
     public void TestScriptSimplePasses()
     {
         // Use the Assert class to test conditions
+        
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
