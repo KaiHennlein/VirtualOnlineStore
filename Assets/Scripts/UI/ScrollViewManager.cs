@@ -54,7 +54,7 @@ public class ScrollViewManager : MonoBehaviour
 
     public void UpdateShoppingCartList()
     {
-        ClearAllObjectsFromScrollView();
+        //ClearAllObjectsFromScrollView();
 
         if (ShoppingCartList.shoppingCartItems.Count > 0)
         {

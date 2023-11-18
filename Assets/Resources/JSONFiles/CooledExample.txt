@@ -1,7 +1,7 @@
 {
-"ProductName": "Milder Sauerländer Käse",
+"ProductName": "Bärlauch Käse am Stück",
 "ProductID": "000000000003",
 "Category": "Cooled",
 "ImageName": "CooledExample",
-"ProductDescription": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+"ProductDescription": "Der Bärlauch Käse ist mit wildem Knoblauch, wie der Bärlauch im Volksmund genannt wird, verfeinert. Kräftig-würzig ist er ein wahrer Genuss ohne schlechtes Gewissen. Selbstgemacht ist einfach am Besten! Es schmeckt nicht nur lecker, wir wissen auch welche Zutaten wir verwenden. Der Käse der Hofkäserkei Wellie ist einfach ein wahres Geschmackserlebnis. mind. 45 % Fett i.Tr. Durch die händische Verarbeitung kann es zu leichten Gewichtsschwankungen kommen."
 }

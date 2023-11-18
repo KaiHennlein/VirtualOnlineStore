@@ -1,0 +1,7 @@
+{
+"ProductName": "Sauerland. 55 Highlights aus der Geschichte",
+"ProductID": "000000000007",
+"Category": "Book",
+"ImageName": "BookExample",
+"ProductDescription": "Der Historiker Joachim Nierhoff präsentiert 55 Höhepunkte aus der langen und wechselvollen Geschichte des Sauerlandes. Im Mittelpunkt dieser kurzweiligen und reich bebilderten Reise in die Vergangenheit stehen die Menschen, Orte und Ereignisse, die das Sauerland nachhaltig prägten und bis heute Spuren hinterlassen. Ein Muss für alle, die sich für die Geschichte des Sauerlandes interessieren."
+}

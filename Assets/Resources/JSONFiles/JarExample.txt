@@ -1,7 +1,7 @@
 {
-"ProductName": "Eingelegte Pilze",
+"ProductName": "Bärlauch Pesto",
 "ProductID": "000000000005",
 "Category": "Jar",
 "ImageName": "JarExample",
-"ProductDescription": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+"ProductDescription": "Die einfach und leckere Küche mit dem Bärlauch Pesto von Ahring erleben: Das klassische Pesto verleiht jedem Pasta-Gericht ein einzigartiges, intensives Aroma - für Feinschmecker Geschmackserlebnisse! Das Pesto beinhaltet frischen 100 %  Bärlauch und wird verfeinert mit Sonnenblumenkernen, wobei dieser dabei ganz ohne zusätzliche Konservierungsstoffe aus! Das Bärlauch Pesto harmoniert nicht nur mit verschiedensten Pasta-Sorten, sondern schmeckt auch köstlich zu Kartoffeln, Fleisch und vielem mehr. Pesto eignet sich für ein schnelles Mittagessen oder Abendessen ebenso gut wie für aufwendigere Gerichte - das Pesto kann einfach kalt auf die heiße Pasta gegeben werden."
 }

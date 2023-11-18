@@ -1,0 +1,7 @@
+{
+"ProductName": "Sauerland Quiz",
+"ProductID": "000000000008",
+"Category": "Merch",
+"ImageName": "MerchExample",
+"ProductDescription": "100 Fragen und Antworten von Ursel Schöne. Grüne Berge, tiefe Täler und viel Wald: So kennt man das Sauerland. Doch viel Überraschendes, Einzigartiges und Kurioses liegt hier verborgen, was den einzigartigen herben Charme der Region zwischen Olpe, Soest, Lüdenscheid und Medebach ausmacht. In 100 Fragen und Antworten geht Ursel Schöne auf Entdeckertour von der Antoniuseiche bis zur Atta-Höhle, von der Hallenberger »Krachnacht« bis zu den Karl-May-Festspielen und von der weltgrößten Skisprungschanze bis zur kleinsten Feuerzeugfabrik Deutschlands. Die Journalistin und Autorin Ursel Schöne zog es nach ihrem Studium ins Sauerland. Die Landschaft hatte ihr Herz erobert. Auf ihrer Quiz-Entdeckungsreise erfuhr sie spannende Dinge über ihre Wahlheimat. Doch täglich gibt es Neues, Überraschendes und manchmal auch Verrücktes zu erleben. So fühlt sich jeder Tag anders an! ISBN 978-3-89978-446-6"
+}

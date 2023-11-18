@@ -1,0 +1,7 @@
+{
+"ProductName": "Bio Spirelli glutenfrei",
+"ProductID": "000000000006",
+"Category": "Bag",
+"ImageName": "BagExample",
+"ProductDescription": "Mit dieser Pasta vermählen sich feine Saucen. Die glutenfreien Bio Spirelli sind die perfekte Ergänzung für Ragouts und Braten. Zubereitung: Für 100 g Nudeln: 1 Liter Wasser zum Kochen bringen und salzen. Kochzeit ca. 8 - 10 Minuten. Bio-Kontrollnummer: DE-ÖKO-006"
+}

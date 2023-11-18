@@ -1,7 +1,7 @@
 {
-"ProductName": "Hofmarke Bio Müsli",
+"ProductName": "Butterspekulatius",
 "ProductID": "000000000001",
 "Category": "Box",
 "ImageName": "BoxExample",
-"ProductDescription": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+"ProductDescription": "Köstlicher Butterspekulatius, der auf der Zunge zergeht... Wer kann da schon widerstehen? Zu einer Tasse Kaffee am Nachmittag schmeckt das selbst gebackenen Gebäck aus der Region einfach köstlich. Der Butterspekulatius von der Schokoladenmanufaktur Sauerland wurde mit Liebe gebacken und ist eine leckere und willkommene Abwechslung zu dem herkömmlichen Spekulatius aus dem Supermarkt. Das handgemachte Gebäck aus dem Sauerland ist sehr beliebt bei Jung und Alt. Dieses köstliche Gebäck wird in eigener Handarbeit hergestellt."
 }
