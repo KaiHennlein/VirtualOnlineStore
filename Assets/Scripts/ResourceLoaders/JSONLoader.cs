@@ -1,11 +1,9 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class JSONLoader : MonoBehaviour
 {
     //Loading JSONs for prototyping. Later data comes from an API
-
     private List<Product> products = new List<Product>();
 
     public void Awake()

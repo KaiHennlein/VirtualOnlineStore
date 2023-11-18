@@ -6425,27 +6425,6 @@ IL_0054:
 		return ((double)(L_12/L_14));
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Math_Max_m12FB4E1302123ADB441E3A7BDF52E8404DDE53A2 (uint8_t ___0_val1, uint8_t ___1_val2, const RuntimeMethod* method) 
-{
-	{
-		uint8_t L_0 = ___0_val1;
-		uint8_t L_1 = ___1_val2;
-		if ((((int32_t)L_0) >= ((int32_t)L_1)))
-		{
-			goto IL_0006;
-		}
-	}
-	{
-		uint8_t L_2 = ___1_val2;
-		return L_2;
-	}
-
-IL_0006:
-	{
-		uint8_t L_3 = ___0_val1;
-		return L_3;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Max_m7BAC743E1752A51F258BB82DEBDD13E7C6D3ED26 (double ___0_val1, double ___1_val2, const RuntimeMethod* method) 
 {
 	{
@@ -6480,27 +6459,6 @@ IL_0010:
 	{
 		double L_6 = ___1_val2;
 		return L_6;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t Math_Max_m84E9F522D15EF60EED3545EF7260EFF4801DBF0D (int16_t ___0_val1, int16_t ___1_val2, const RuntimeMethod* method) 
-{
-	{
-		int16_t L_0 = ___0_val1;
-		int16_t L_1 = ___1_val2;
-		if ((((int32_t)L_0) >= ((int32_t)L_1)))
-		{
-			goto IL_0006;
-		}
-	}
-	{
-		int16_t L_2 = ___1_val2;
-		return L_2;
-	}
-
-IL_0006:
-	{
-		int16_t L_3 = ___0_val1;
-		return L_3;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF (int32_t ___0_val1, int32_t ___1_val2, const RuntimeMethod* method) 
@@ -6545,27 +6503,6 @@ IL_0006:
 		return L_3;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t Math_Max_m8CA8DA82E6369E8477818CB2C8C83ADDA7B4CEFD (int8_t ___0_val1, int8_t ___1_val2, const RuntimeMethod* method) 
-{
-	{
-		int8_t L_0 = ___0_val1;
-		int8_t L_1 = ___1_val2;
-		if ((((int32_t)L_0) >= ((int32_t)L_1)))
-		{
-			goto IL_0006;
-		}
-	}
-	{
-		int8_t L_2 = ___1_val2;
-		return L_2;
-	}
-
-IL_0006:
-	{
-		int8_t L_3 = ___0_val1;
-		return L_3;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA (float ___0_val1, float ___1_val2, const RuntimeMethod* method) 
 {
 	{
@@ -6602,27 +6539,6 @@ IL_0010:
 		return L_6;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Math_Max_m670CC45E68892199F0ED53A131DAB78A953389BB (uint16_t ___0_val1, uint16_t ___1_val2, const RuntimeMethod* method) 
-{
-	{
-		uint16_t L_0 = ___0_val1;
-		uint16_t L_1 = ___1_val2;
-		if ((((int32_t)L_0) >= ((int32_t)L_1)))
-		{
-			goto IL_0006;
-		}
-	}
-	{
-		uint16_t L_2 = ___1_val2;
-		return L_2;
-	}
-
-IL_0006:
-	{
-		uint16_t L_3 = ___0_val1;
-		return L_3;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Math_Max_m6612C5AE2D40056418765878E8787E4828D2ADD7 (uint32_t ___0_val1, uint32_t ___1_val2, const RuntimeMethod* method) 
 {
 	{
@@ -6641,84 +6557,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Math_Max_m6612C5AE2D40056418765878E8
 IL_0006:
 	{
 		uint32_t L_3 = ___0_val1;
-		return L_3;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Math_Min_m3DB243CAEBFE6D6E88DCD3B445AB528CD3911AAB (uint8_t ___0_val1, uint8_t ___1_val2, const RuntimeMethod* method) 
-{
-	{
-		uint8_t L_0 = ___0_val1;
-		uint8_t L_1 = ___1_val2;
-		if ((((int32_t)L_0) <= ((int32_t)L_1)))
-		{
-			goto IL_0006;
-		}
-	}
-	{
-		uint8_t L_2 = ___1_val2;
-		return L_2;
-	}
-
-IL_0006:
-	{
-		uint8_t L_3 = ___0_val1;
-		return L_3;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Min_mA3310F1FF7876DA2FC7F37B822E6DD66410565C1 (double ___0_val1, double ___1_val2, const RuntimeMethod* method) 
-{
-	{
-		double L_0 = ___0_val1;
-		double L_1 = ___1_val2;
-		if ((!(((double)L_0) < ((double)L_1))))
-		{
-			goto IL_0006;
-		}
-	}
-	{
-		double L_2 = ___0_val1;
-		return L_2;
-	}
-
-IL_0006:
-	{
-		double L_3 = ___0_val1;
-		bool L_4;
-		L_4 = Double_IsNaN_mF2BC6D1FD4813179B2CAE58D29770E42830D0883_inline(L_3, NULL);
-		if (!L_4)
-		{
-			goto IL_0010;
-		}
-	}
-	{
-		double L_5 = ___0_val1;
-		return L_5;
-	}
-
-IL_0010:
-	{
-		double L_6 = ___1_val2;
-		return L_6;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t Math_Min_m3A1505831021980925E52A4E8E73DB83179793C7 (int16_t ___0_val1, int16_t ___1_val2, const RuntimeMethod* method) 
-{
-	{
-		int16_t L_0 = ___0_val1;
-		int16_t L_1 = ___1_val2;
-		if ((((int32_t)L_0) <= ((int32_t)L_1)))
-		{
-			goto IL_0006;
-		}
-	}
-	{
-		int16_t L_2 = ___1_val2;
-		return L_2;
-	}
-
-IL_0006:
-	{
-		int16_t L_3 = ___0_val1;
 		return L_3;
 	}
 }
@@ -6764,27 +6602,6 @@ IL_0006:
 		return L_3;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t Math_Min_m1B6A7DBB8BBF41DE5E09DAAA47913DE1A3168B88 (int8_t ___0_val1, int8_t ___1_val2, const RuntimeMethod* method) 
-{
-	{
-		int8_t L_0 = ___0_val1;
-		int8_t L_1 = ___1_val2;
-		if ((((int32_t)L_0) <= ((int32_t)L_1)))
-		{
-			goto IL_0006;
-		}
-	}
-	{
-		int8_t L_2 = ___1_val2;
-		return L_2;
-	}
-
-IL_0006:
-	{
-		int8_t L_3 = ___0_val1;
-		return L_3;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Math_Min_mE913811A2F7566294BF4649A434282634E7254B3 (float ___0_val1, float ___1_val2, const RuntimeMethod* method) 
 {
 	{
@@ -6821,27 +6638,6 @@ IL_0010:
 		return L_6;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Math_Min_mA7BFF48067FBED606414C9937B00BE496B2696D7 (uint16_t ___0_val1, uint16_t ___1_val2, const RuntimeMethod* method) 
-{
-	{
-		uint16_t L_0 = ___0_val1;
-		uint16_t L_1 = ___1_val2;
-		if ((((int32_t)L_0) <= ((int32_t)L_1)))
-		{
-			goto IL_0006;
-		}
-	}
-	{
-		uint16_t L_2 = ___1_val2;
-		return L_2;
-	}
-
-IL_0006:
-	{
-		uint16_t L_3 = ___0_val1;
-		return L_3;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Math_Min_m66781C8F3800C6682369B449FFDB62FAD5E87121 (uint32_t ___0_val1, uint32_t ___1_val2, const RuntimeMethod* method) 
 {
 	{
@@ -6860,27 +6656,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Math_Min_m66781C8F3800C6682369B449FF
 IL_0006:
 	{
 		uint32_t L_3 = ___0_val1;
-		return L_3;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Math_Min_m1C589BAB3D638CE6D3A29E552EDB5E9F95856C28 (uint64_t ___0_val1, uint64_t ___1_val2, const RuntimeMethod* method) 
-{
-	{
-		uint64_t L_0 = ___0_val1;
-		uint64_t L_1 = ___1_val2;
-		if ((!(((uint64_t)L_0) > ((uint64_t)L_1))))
-		{
-			goto IL_0006;
-		}
-	}
-	{
-		uint64_t L_2 = ___1_val2;
-		return L_2;
-	}
-
-IL_0006:
-	{
-		uint64_t L_3 = ___0_val1;
 		return L_3;
 	}
 }
@@ -7089,23 +6864,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Sign_mC342EFA64DCA2E65BCF71F1206
 		int64_t L_0 = ___0_value;
 		int64_t L_1 = ___0_value;
 		return ((int32_t)((int64_t)(((int64_t)(L_0>>((int32_t)63)))|((int64_t)((uint64_t)((-L_1))>>((int32_t)63))))));
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Truncate_mE66B1AD68C17D27675DE0CB74643374F9EDB649C (double ___0_d, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		double L_0 = ___0_d;
-		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		double L_1;
-		L_1 = Math_ModF_m0F96CE4FC43C89BECCE17B6EFB51B01D39BD0EBB(L_0, (double*)((uintptr_t)(&___0_d)), NULL);
-		double L_2 = ___0_d;
-		return L_2;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Abs_mB51A855474C02CE2D68C41DA19230632910A3883 (double ___0_value, const RuntimeMethod* method) 

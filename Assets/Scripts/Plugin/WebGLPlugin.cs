@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Runtime.InteropServices;
-using Unity.VisualScripting;
 
 public class WebGLPlugin : MonoBehaviour 
 {
