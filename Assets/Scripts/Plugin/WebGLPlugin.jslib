@@ -5,9 +5,9 @@ mergeInto(LibraryManager.library, {
     }
 });
 mergeInto(LibraryManager.library, {
-    SendCartData: function (ProductName, ProductID, Amount){
-		console.log(ProductName, ProductID, Amount);
-		receiveCartDataFromUnity(ProductName, ProductID, Amount)
+    SendCartData: function (ProductID, Amount){
+		console.log(ProductID, Amount);
+		receiveCartDataFromUnity(ProductID, Amount)
 	}
 });
 

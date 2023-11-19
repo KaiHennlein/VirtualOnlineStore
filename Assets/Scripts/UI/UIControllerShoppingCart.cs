@@ -4,7 +4,6 @@ public class UIControllerShoppingCart : MonoBehaviour
 {
     public static UIControllerShoppingCart instance;
     private GameObject ShoppingCartUI;
-    private Product product;
 
     // Start is called before the first frame update
     void Start()
@@ -47,15 +46,13 @@ public class UIControllerShoppingCart : MonoBehaviour
         ShoppingCartUI.SetActive(false);
     }
 
-    public void SendCartDataToHTML() 
+    public void SendCartDataToHTML()
     {
         WebGLPlugin webGLPlugin = WebGLPlugin.Instance;
-        
-        foreach(ShoppingCartItem item in ShoppingCartList.shoppingCartItems) 
+
+        foreach (ShoppingCartItem item in ShoppingCartList.shoppingCartItems)
         {
             webGLPlugin.SendCartDataToHTML(item.ProductName, item.ProductID, item.Amount);
         }
-
-        CloseUI();
     }
 }

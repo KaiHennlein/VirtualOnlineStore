@@ -1,6 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - InputManager
+    - PlayerInteract
+    - PlayerLook
+    - PlayerMotor
+    - PlayerUI
+    ScriptsAssembly.dll:
     - BagInteractable
     - BookInteractibles
     - BottleInteractible
@@ -9,14 +15,9 @@ ScriptsOnlyBuild:
     - CooledInteractible
     - FrozenInteractable
     - ImageLoader
-    - InputManager
     - JSONLoader
     - JarInteractibles
     - MerchInteractable
-    - PlayerInteract
-    - PlayerLook
-    - PlayerMotor
-    - PlayerUI
     - ScrollViewManager
     - UIController
     - UIControllerShoppingCart
@@ -62,6 +63,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    - Packages.Rider.Editor.UnitTesting.SyncTestRunEventsHandler
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -77,6 +79,8 @@ ScriptsOnlyBuild:
     UnityEditor.TestRunner.dll:
     - TestRunner.Callbacks.WindowResultUpdaterDataHolder
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
+    - UnityEditor.TestTools.TestRunner.RerunCallbackData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     - UnityEditor.TestTools.TestRunner.TestRunnerWindow
@@ -109,7 +113,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
   serializedClasses:
-    Assembly-CSharp:
+    ScriptsAssembly:
     - Product
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -161,22 +165,25 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
-  - assembly: Assembly-CSharp
+  - assembly: ScriptsAssembly
     fullTypeName: UIControllerShoppingCart
     methodName: ToggleShoppingCart
-  - assembly: Assembly-CSharp
+  - assembly: ScriptsAssembly
     fullTypeName: UIController
     methodName: AddToCart
-  - assembly: Assembly-CSharp
+  - assembly: ScriptsAssembly
+    fullTypeName: UIController
+    methodName: CloseUI
+  - assembly: ScriptsAssembly
     fullTypeName: UIControllerShoppingCart
     methodName: SendCartDataToHTML
-  - assembly: Assembly-CSharp
+  - assembly: ScriptsAssembly
     fullTypeName: UIControllerShoppingCart
     methodName: CloseUI
-  - assembly: Assembly-CSharp
+  - assembly: ScriptsAssembly
     fullTypeName: UIControllerShoppingCart
     methodName: CloseUI
-  - assembly: Assembly-CSharp
+  - assembly: ScriptsAssembly
     fullTypeName: UIController
     methodName: CloseUI
   - assembly: Unity.RenderPipelines.Core.Runtime
@@ -568,7 +575,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: UIControllerShoppingCart
   - hash:
@@ -652,7 +659,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 33976f713747fa44f36f69e3bc95de5c
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: BaseProductInteractible
   - hash:
@@ -664,7 +671,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 33976f713747fa44f36f69e3bc95de5c
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: BottleInteractible
   - hash:
@@ -814,7 +821,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 33976f713747fa44f36f69e3bc95de5c
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: BookInteractibles
   - hash:
@@ -898,7 +905,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: MaterialChanger
   - hash:
@@ -940,7 +947,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 591ae40a583df533798ad2c28497918c
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: ScrollViewManager
   - hash:
@@ -1144,7 +1151,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 33976f713747fa44f36f69e3bc95de5c
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: BagInteractable
   - hash:
@@ -1228,7 +1235,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: WebGLPlugin
   - hash:
@@ -1306,7 +1313,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: ImageLoader
   - hash:
@@ -1378,7 +1385,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 33976f713747fa44f36f69e3bc95de5c
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: MerchInteractable
   - hash:
@@ -1390,7 +1397,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 33976f713747fa44f36f69e3bc95de5c
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: CooledInteractible
   - hash:
@@ -1486,7 +1493,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 33976f713747fa44f36f69e3bc95de5c
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: CannedInteractible
   - hash:
@@ -1546,7 +1553,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 33976f713747fa44f36f69e3bc95de5c
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: BoxInteractible
   - hash:
@@ -1600,7 +1607,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: JSONLoader
   - hash:
@@ -1678,7 +1685,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 33976f713747fa44f36f69e3bc95de5c
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: JarInteractibles
   - hash:
@@ -1708,7 +1715,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 33976f713747fa44f36f69e3bc95de5c
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: FrozenInteractable
   - hash:
@@ -1936,7 +1943,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 480c2b331a460a39ada96d1814e29d68
-    assemblyName: Assembly-CSharp
+    assemblyName: ScriptsAssembly
     namespaceName: 
     className: UIController
   - hash:

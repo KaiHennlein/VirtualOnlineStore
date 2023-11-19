@@ -20,7 +20,12 @@
       <p>Zum Checkout Warenkorb nutzen oder zur Kasse gehen</p>
       <p>////</p>
       <p>Test der Kommunikation zwischen Unity und Website:</p>
-      <p id="counterTextNew">Counter: 0</p>
+      <p id="counterText">Counter: 0</p>
+      <!--
+        <p id="productName">Produktname</p>
+        <p id="productID">Produkt ID</p>
+        <p id="amount">Menge</p>
+      -->
     </div>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1200 height=675 tabindex="-1"></canvas>
@@ -39,10 +44,12 @@
     </div>
     <script>
       function receiveDataFromUnity(counter) {
-        document.getElementById("counterTextNew").textContent = "Counter: " + counter;
+        document.getElementById("counterText").textContent = "Counter: " + counter;
       }
-      function receiveCartDataFromUnity(productName, productID, Amount){
-
+      function receiveCartDataFromUnity(productName, productID, amount){
+        document.getElementById("productName").textContent = productName;
+        document.getElementById("productID").textContent = productID;
+        document.getElementById("amount").textContent = amount;
       }
     </script>
     <script>
